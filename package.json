@@ -1,0 +1,26 @@
+{
+  "name": "words-api-graphql",
+  "version": "1.0.0",
+  "description": "Words API in GraphQL",
+  "author": "Margarita Krutikova <margaretkru@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/index",
+    "dev": "nodemon --exec node lib/index.js"
+  },
+  "repository": "https://github.com/margaretkrutikova/words-api-graphql",
+  "keywords": [
+    "graphql"
+  ],
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "mongodb": "^2.2.34"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.16.0",
+    "nodemon": "^1.9.2"
+  }
+}
