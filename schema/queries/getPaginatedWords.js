@@ -2,8 +2,7 @@ const {
   GraphQLObjectType,
   GraphQLInt,
   GraphQLList,
-  GraphQLNonNull,
-  getNullableType
+  GraphQLNonNull
 } = require('graphql');
 
 const mongoDb = require('../../database/mongodb');
@@ -19,7 +18,7 @@ const PaginatedWordsType = new GraphQLObjectType({
     },
     items: {
       type: new GraphQLList(WordType),
-      resolve: pagination => getNullableType(pagination.words)
+      resolve: pagination => (pagination.words || [])
     }
   })
 });
@@ -33,7 +32,7 @@ module.exports = {
     page: { type: new GraphQLNonNull(GraphQLInt) },
     itemsPerPage: { type: new GraphQLNonNull(GraphQLInt) }
   },
-
+  
   resolve: (obj, args, { mPool }) => {
     return mongoDb(mPool).getWords(args);
   }
