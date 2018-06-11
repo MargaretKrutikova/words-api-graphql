@@ -1,5 +1,11 @@
 module.exports = {
   development: {
-    url: 'mongodb://localhost:27017/words-app'
+    url: process.env.MONGO_URL_DEV
+  },
+  staging: {
+    url: process.env.MONGO_URL_STAGE
+  },
+  production: {
+    url: process.env.MONGO_URL_PROD
   }
 };
