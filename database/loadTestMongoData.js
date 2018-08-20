@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { MongoClient } = require('mongodb');
 const assert = require('assert');
 const { nodeEnv } = require('../lib/util');
@@ -85,6 +86,51 @@ MongoClient.connect(
           usages: ['vad flinar du åt?'],
           explanations: ['oft negativt sammanhang'],
           createdDate: new Date()
+        },
+        {
+          value: 'fylla upp tomrum ',
+          explanations: ['Säga någonting för att det inte ska bli tyst'],
+          createdDate: new Date()
+        },
+        {
+          value: 'en fälla',
+          translations: ['trap'],
+          usages: ['musfälla - mouse trap'],
+          createdDate: new Date()
+        },
+        {
+          value: 'fjäder',
+          translations: ['spring, пружина'],
+          createdDate: new Date()
+        },
+        {
+          value: 'föredömligt',
+          translations: ['Образцовый, показательный '],
+          createdDate: new Date(),
+          updatedDate: 1529052778783
+        },
+        {
+          value: 'skidskytte',
+          translations: ['Biathlon '],
+          createdDate: new Date(),
+          updatedDate: 1529070198313
+        },
+        {
+          value: 'förnedrande ',
+          translations: ['Nedsättande, унизительно '],
+          createdDate: new Date(),
+          updatedDate: 1529348506868
+        },
+        {
+          value: 'ångestladdad dag',
+          createdDate: new Date(),
+          updatedDate: 1529395630682
+        },
+        {
+          value: 'giggig',
+          translations: ['Липкий, слякотный '],
+          createdDate: new Date(),
+          updatedDate: 1529395673209
         }
       ])
       .then(response => {
