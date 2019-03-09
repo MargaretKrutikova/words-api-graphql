@@ -11,7 +11,7 @@ Query for a paginated list:
   words(page:1, itemsPerPage: 20) {
     total
     items {
-      _id,
+      id,
       value,
       createdDate,
       updatedDate
@@ -37,7 +37,7 @@ Adding a new word:
 ```
 mutation {
   SaveWord(input: { value: "hej", translations: ["hello"]}) {
-    _id,
+    id,
     value,
     createdDate
   }
@@ -48,8 +48,8 @@ Updating an existing word:
 
 ```
 mutation {
-  SaveWord(input: { _id: "5c8307150f2cac142a3901bb", value: "hej hej", translations: ["Hello hello"]}) {
-    _id,
+  SaveWord(input: { id: "5c8307150f2cac142a3901bb", value: "hej hej", translations: ["Hello hello"]}) {
+    id,
     value,
     createdDate,
     updatedDate

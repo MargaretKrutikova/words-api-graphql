@@ -11,7 +11,7 @@ import WordType from "../types/word"
 const WordInputType = new GraphQLInputObjectType({
   name: "WordInputType",
   fields: () => ({
-    _id: { type: GraphQLString },
+    id: { type: GraphQLString },
     value: { type: new GraphQLNonNull(GraphQLString) },
     translations: {
       type: new GraphQLList(GraphQLString)

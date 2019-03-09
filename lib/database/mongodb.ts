@@ -1,5 +1,5 @@
 import { MongoClient, ObjectId } from "mongodb"
-import { ApiWordEntity, SaveWordModel } from "../schema/types/WordModel"
+import { ApiWordEntity, WordMutationModel } from "../types"
 import { getReplacementFields } from "./util"
 
 type PaginatedWordsRequest = {
@@ -30,13 +30,13 @@ export default (mPool: MongoClient) => {
       }
     },
 
-    saveWord: async (word: SaveWordModel) => {
+    saveWord: async (word: WordMutationModel) => {
       const date = new Date()
-      const { _id, ...fieldsToSave } = word
+      const { id, ...fieldsToSave } = word
 
       const { fieldsToSet, fieldsToUnset } = getReplacementFields(fieldsToSave)
 
-      const setCreated = !_id ? { createdDate: date } : {}
+      const setCreated = !id ? { createdDate: date } : {}
       const setUpdated = { updatedDate: date }
 
       // if $unset is an empty object, mongo will throw an exception.
@@ -47,7 +47,7 @@ export default (mPool: MongoClient) => {
 
       const options = { upsert: true, returnOriginal: false }
       const data = await getWordsCollection().findOneAndUpdate(
-        { _id: new ObjectId(_id) }, // query
+        { _id: new ObjectId(id) }, // query
         {
           $set: { ...fieldsToSet, ...setCreated, ...setUpdated },
           ...unsetObj

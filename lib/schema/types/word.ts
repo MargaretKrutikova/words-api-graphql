@@ -9,7 +9,10 @@ export default new GraphQLObjectType({
   name: "WordType",
 
   fields: () => ({
-    _id: { type: GraphQLID },
+    id: {
+      type: GraphQLID,
+      resolve: word => word._id
+    },
     value: { type: GraphQLString },
     createdDate: {
       type: GraphQLString,
