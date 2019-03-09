@@ -1,11 +1,13 @@
-import { MongoClient, ObjectId } from "mongodb"
+import { DeleteWriteOpResultObject, MongoClient, ObjectId } from "mongodb"
 import { ApiWordEntity, WordMutationModel } from "../types"
 import { getReplacementFields } from "./util"
 
-type PaginatedWordsRequest = {
+export type PaginatedWordsRequest = {
   readonly page: number
   readonly itemsPerPage: number
 }
+
+export type DeleteWordResponse = DeleteWriteOpResultObject["result"]
 
 export default (mPool: MongoClient) => {
   const getWordsCollection = () => mPool.db().collection<ApiWordEntity>("words")
@@ -29,6 +31,14 @@ export default (mPool: MongoClient) => {
         words: values[0],
         total: values[1]
       }
+    },
+
+    deleteWord: async (id: string): Promise<DeleteWordResponse> => {
+      const data = await getWordsCollection().deleteOne({
+        _id: new ObjectId(id)
+      })
+
+      return data.result
     },
 
     saveWord: async (word: WordMutationModel) => {

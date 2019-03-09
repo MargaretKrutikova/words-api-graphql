@@ -9,7 +9,7 @@ import mongoDb from "../../database/mongodb"
 import WordType from "../types/word"
 
 const WordInputType = new GraphQLInputObjectType({
-  name: "WordInputType",
+  name: "SaveWordInputType",
   fields: () => ({
     id: { type: GraphQLString },
     value: { type: new GraphQLNonNull(GraphQLString) },
@@ -33,7 +33,7 @@ export default {
   args: {
     input: { type: new GraphQLNonNull(WordInputType) }
   },
-  resolve(_: any, { input }: any, { mPool }: any) {
+  resolve: (_: any, { input }: any, { mPool }: any) => {
     return mongoDb(mPool).saveWord(input)
   }
 }

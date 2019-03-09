@@ -1,5 +1,6 @@
 import { GraphQLObjectType, GraphQLSchema } from "graphql"
-import SaveWordMutation from "./mutations/saveWord"
+import deleteWordMutation from "./mutations/deleteWord"
+import saveWordMutation from "./mutations/saveWord"
 import getPaginatedWordsQuery from "./queries/getPaginatedWords"
 import getWordQuery from "./queries/getWord"
 
@@ -18,7 +19,8 @@ const RootQueryType = new GraphQLObjectType({
 const RootMutationType = new GraphQLObjectType({
   name: "RootMutationType",
   fields: () => ({
-    SaveWord: SaveWordMutation
+    saveWord: saveWordMutation,
+    deleteWord: deleteWordMutation
   })
 })
 
