@@ -1,17 +1,17 @@
-const {
+import {
   GraphQLInputObjectType,
-  GraphQLString,
   GraphQLList,
-  GraphQLNonNull
-} = require('graphql');
+  GraphQLNonNull,
+  GraphQLString
+} from "graphql"
 
-const WordType = require('../types/word');
-const mongoDb = require('../../database/mongodb');
+import mongoDb from "../../database/mongodb"
+import WordType from "../types/word"
 
 const WordInputType = new GraphQLInputObjectType({
-  name: 'WordInputType',
+  name: "SaveWordInputType",
   fields: () => ({
-    _id: { type: GraphQLString },
+    id: { type: GraphQLString },
     value: { type: new GraphQLNonNull(GraphQLString) },
     translations: {
       type: new GraphQLList(GraphQLString)
@@ -23,9 +23,9 @@ const WordInputType = new GraphQLInputObjectType({
       type: new GraphQLList(GraphQLString)
     }
   })
-});
+})
 
-module.exports = {
+export default {
   // what we want enable the user to read after we have done the mutation,
   // this should match the resolved value in the resolve function
   type: WordType,
@@ -33,7 +33,7 @@ module.exports = {
   args: {
     input: { type: new GraphQLNonNull(WordInputType) }
   },
-  resolve(obj, { input }, { mPool }) {
-    return mongoDb(mPool).saveWord(input);
+  resolve: (_: any, { input }: any, { mPool }: any) => {
+    return mongoDb(mPool).saveWord(input)
   }
-};
+}
