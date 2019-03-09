@@ -1,23 +1,23 @@
-const {
-  GraphQLObjectType,
-  GraphQLString,
+import {
+  GraphQLID,
   GraphQLList,
-  GraphQLID
-} = require('graphql');
+  GraphQLObjectType,
+  GraphQLString
+} from "graphql"
 
-module.exports = new GraphQLObjectType({
-  name: 'WordType',
+export default new GraphQLObjectType({
+  name: "WordType",
 
   fields: () => ({
     _id: { type: GraphQLID },
     value: { type: GraphQLString },
     createdDate: {
       type: GraphQLString,
-      resolve: word => (word.createdDate ? word.createdDate.toISOString() : '')
+      resolve: word => (word.createdDate ? word.createdDate.toISOString() : "")
     },
     updatedDate: {
       type: GraphQLString,
-      resolve: word => (word.updatedDate ? word.updatedDate.toISOString() : '')
+      resolve: word => (word.updatedDate ? word.updatedDate.toISOString() : "")
     },
     translations: {
       type: new GraphQLList(GraphQLString),
@@ -32,4 +32,4 @@ module.exports = new GraphQLObjectType({
       resolve: word => word.usages || []
     }
   })
-});
+})

@@ -32,11 +32,11 @@ export default (mPool: MongoClient) => {
 
     saveWord: async (word: SaveWordModel) => {
       const date = new Date()
-      const { id, ...fieldsToSave } = word
+      const { _id, ...fieldsToSave } = word
 
       const { fieldsToSet, fieldsToUnset } = getReplacementFields(fieldsToSave)
 
-      const setCreated = !id ? { createdDate: date } : {}
+      const setCreated = !_id ? { createdDate: date } : {}
       const setUpdated = { updatedDate: date }
 
       // if $unset is an empty object, mongo will throw an exception.
@@ -45,14 +45,16 @@ export default (mPool: MongoClient) => {
           ? { $unset: { ...fieldsToUnset } }
           : {}
 
+      const options = { upsert: true, returnOriginal: false }
       const data = await getWordsCollection().findOneAndUpdate(
-        { _id: new ObjectId(id) }, // query
+        { _id: new ObjectId(_id) }, // query
         {
           $set: { ...fieldsToSet, ...setCreated, ...setUpdated },
           ...unsetObj
         }, // replacement object
-        { upsert: true } // options
+        options
       )
+
       return data.value
     }
   }
