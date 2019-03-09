@@ -17,11 +17,12 @@ export default (mPool: MongoClient) => {
     getWords: async ({ page, itemsPerPage }: PaginatedWordsRequest) => {
       const getPaginatedPromise = getWordsCollection()
         .find()
+        .sort({ createdDate: -1 })
         .limit(itemsPerPage)
         .skip(page > 0 ? (page - 1) * itemsPerPage : 0)
         .toArray()
 
-      const getTotalPromise = getWordsCollection().count()
+      const getTotalPromise = getWordsCollection().countDocuments()
 
       const values = await Promise.all([getPaginatedPromise, getTotalPromise])
       return {
