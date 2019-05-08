@@ -9,6 +9,7 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"lib/**/*.ts\" --write",
     "fix:tslint": "tslint --fix --project .",
+    "build:start": "run-s build start",
     "start": "npm run serve",
     "serve": "node build/lib/index.js",
     "test": "run-s build test:*",
