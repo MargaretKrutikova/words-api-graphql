@@ -20,12 +20,12 @@ console.log(`Running in ${nodeEnv} mode...`)
 const app = express()
 
 // select the configuration for the current node environment
-const mConfig = config[nodeEnv]
-assert.notEqual(mConfig.url, undefined)
+const url = config.url!
+assert.notEqual(url, undefined)
 
 // connect to mongodb
 MongoClient.connect(
-  mConfig.url!,
+  url,
   { useNewUrlParser: true },
   (err: MongoError, mPool: MongoClient) => {
     assert.equal(err, null)
