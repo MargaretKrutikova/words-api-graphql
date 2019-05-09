@@ -1,17 +1,13 @@
 import assert from "assert"
 import "../env"
-
 import { MongoClient, MongoError } from "mongodb"
-
 import config from "../config/mongo"
 import { WordDbModel } from "../types"
-import { nodeEnv } from "../util"
 
-const mongoConfig = config[nodeEnv]
-assert.notEqual(mongoConfig.url, undefined)
+assert.notEqual(config.url, undefined)
 
 MongoClient.connect(
-  mongoConfig.url!,
+  config.url!,
   { useNewUrlParser: true },
   (err: MongoError, mPool: MongoClient) => {
     assert.equal(null, err)
