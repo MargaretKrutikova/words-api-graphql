@@ -1,16 +1,26 @@
-import { DeleteWriteOpResultObject, MongoClient, ObjectId } from "mongodb"
-import { ApiWordEntity, WordMutationModel } from "../types"
-import { getReplacementFields } from "./util"
+import { DeleteWriteOpResultObject, MongoClient, ObjectId } from "mongodb";
+import { ApiWordEntity, WordMutationModel } from "../types";
+import { getReplacementFields } from "./util";
 
 export type PaginatedWordsRequest = {
-  readonly page: number
-  readonly itemsPerPage: number
-}
+  readonly page: number;
+  readonly itemsPerPage: number;
+};
 
-export type DeleteWordResponse = DeleteWriteOpResultObject["result"]
+export type DeleteWordResponse = DeleteWriteOpResultObject["result"];
 
-export default (mPool: MongoClient) => {
-  const getWordsCollection = () => mPool.db().collection<ApiWordEntity>("words")
+type MongoDbService = {
+  getWord: (wordId: ObjectId) => Promise<ApiWordEntity | null>;
+  getWords: (
+    request: PaginatedWordsRequest
+  ) => Promise<{ words: ApiWordEntity[]; total: number }>;
+  deleteWord: (id: string) => Promise<DeleteWordResponse>;
+  saveWord: (word: WordMutationModel) => Promise<ApiWordEntity | undefined>;
+};
+
+export default (mPool: MongoClient): MongoDbService => {
+  const getWordsCollection = () =>
+    mPool.db().collection<ApiWordEntity>("words");
 
   return {
     getWord: (wordId: ObjectId) =>
@@ -22,41 +32,41 @@ export default (mPool: MongoClient) => {
         .sort({ createdDate: -1 })
         .limit(itemsPerPage)
         .skip(page > 0 ? (page - 1) * itemsPerPage : 0)
-        .toArray()
+        .toArray();
 
-      const getTotalPromise = getWordsCollection().countDocuments()
+      const getTotalPromise = getWordsCollection().countDocuments();
 
-      const values = await Promise.all([getPaginatedPromise, getTotalPromise])
+      const values = await Promise.all([getPaginatedPromise, getTotalPromise]);
       return {
         words: values[0],
         total: values[1]
-      }
+      };
     },
 
     deleteWord: async (id: string): Promise<DeleteWordResponse> => {
       const data = await getWordsCollection().deleteOne({
         _id: new ObjectId(id)
-      })
+      });
 
-      return data.result
+      return data.result;
     },
 
     saveWord: async (word: WordMutationModel) => {
-      const date = new Date()
-      const { id, ...fieldsToSave } = word
+      const date = new Date();
+      const { id, ...fieldsToSave } = word;
 
-      const { fieldsToSet, fieldsToUnset } = getReplacementFields(fieldsToSave)
+      const { fieldsToSet, fieldsToUnset } = getReplacementFields(fieldsToSave);
 
-      const setCreated = !id ? { createdDate: date } : {}
-      const setUpdated = { updatedDate: date }
+      const setCreated = !id ? { createdDate: date } : {};
+      const setUpdated = { updatedDate: date };
 
       // if $unset is an empty object, mongo will throw an exception.
       const unsetObj =
         Object.keys(fieldsToUnset).length > 0
           ? { $unset: { ...fieldsToUnset } }
-          : {}
+          : {};
 
-      const options = { upsert: true, returnOriginal: false }
+      const options = { upsert: true, returnOriginal: false };
       const data = await getWordsCollection().findOneAndUpdate(
         { _id: new ObjectId(id) }, // query
         {
@@ -64,9 +74,9 @@ export default (mPool: MongoClient) => {
           ...unsetObj
         }, // replacement object
         options
-      )
+      );
 
-      return data.value
+      return data.value;
     }
-  }
-}
+  };
+};
