@@ -4,9 +4,9 @@ import {
   GraphQLNonNull,
   GraphQLObjectType,
   GraphQLString
-} from "graphql"
+} from "graphql";
 
-import mongoDb, { DeleteWordResponse } from "../../database/mongodb"
+import mongoDb, { DeleteWordResponse } from "../../database/mongodb";
 
 const deleteWordType = new GraphQLObjectType({
   name: "DeleteWordType",
@@ -16,14 +16,14 @@ const deleteWordType = new GraphQLObjectType({
       resolve: (resp: DeleteWordResponse) => resp.ok && !!resp.n && resp.n >= 1
     }
   })
-})
+});
 
 const WordInputType = new GraphQLInputObjectType({
   name: "DeleteWordInputType",
   fields: () => ({
     id: { type: GraphQLString }
   })
-})
+});
 
 export default {
   // what we want enable the user to read after we have done the mutation,
@@ -34,6 +34,6 @@ export default {
     input: { type: new GraphQLNonNull(WordInputType) }
   },
   resolve: (_: any, { input }: any, { mPool }: any) => {
-    return mongoDb(mPool).deleteWord(input.id)
+    return mongoDb(mPool).deleteWord(input.id);
   }
-}
+};

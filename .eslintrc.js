@@ -1,20 +1,15 @@
 module.exports = {
   env: {
     es6: true,
-    node: true
+    node: true,
   },
-  extends: "eslint:recommended",
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   parserOptions: {
     sourceType: "module",
     ecmaFeatures: {
-      experimentalObjectRestSpread: true
-    }
+      experimentalObjectRestSpread: true,
+    },
   },
-  rules: {
-    "no-console": "off",
-    indent: ["error", 2],
-    quotes: ["error", "single"],
-    "linebreak-style": ["error", "windows"],
-    semi: ["error", "always"]
-  }
 };

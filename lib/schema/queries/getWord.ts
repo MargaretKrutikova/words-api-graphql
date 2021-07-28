@@ -1,7 +1,7 @@
-import { GraphQLNonNull, GraphQLString } from "graphql"
+import { GraphQLNonNull, GraphQLString } from "graphql";
 
-import mongoDb from "../../database/mongodb"
-import WordType from "../types/word"
+import mongoDb from "../../database/mongodb";
+import WordType from "../types/word";
 
 export default {
   name: "GetWordQuery",
@@ -14,6 +14,6 @@ export default {
   // args - values of the fields args passed from the user, args.key
   // context - object that is passed down from the executor
   resolve: (_: any, args: any, { mPool }: any) => {
-    return mongoDb(mPool).getWord(args.key)
+    return mongoDb(mPool).getWord(args.key);
   }
-}
+};

@@ -3,10 +3,10 @@ import {
   GraphQLList,
   GraphQLNonNull,
   GraphQLString
-} from "graphql"
+} from "graphql";
 
-import mongoDb from "../../database/mongodb"
-import WordType from "../types/word"
+import mongoDb from "../../database/mongodb";
+import WordType from "../types/word";
 
 const WordInputType = new GraphQLInputObjectType({
   name: "SaveWordInputType",
@@ -23,7 +23,7 @@ const WordInputType = new GraphQLInputObjectType({
       type: new GraphQLList(GraphQLString)
     }
   })
-})
+});
 
 export default {
   // what we want enable the user to read after we have done the mutation,
@@ -34,6 +34,6 @@ export default {
     input: { type: new GraphQLNonNull(WordInputType) }
   },
   resolve: (_: any, { input }: any, { mPool }: any) => {
-    return mongoDb(mPool).saveWord(input)
+    return mongoDb(mPool).saveWord(input);
   }
-}
+};

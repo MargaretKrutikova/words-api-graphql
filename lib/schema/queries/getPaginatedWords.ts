@@ -3,10 +3,10 @@ import {
   GraphQLList,
   GraphQLNonNull,
   GraphQLObjectType
-} from "graphql"
+} from "graphql";
 
-import mongoDb from "../../database/mongodb"
-import WordType from "../types/word"
+import mongoDb from "../../database/mongodb";
+import WordType from "../types/word";
 
 const PaginatedWordsType = new GraphQLObjectType({
   name: "PaginatedWordsType",
@@ -21,7 +21,7 @@ const PaginatedWordsType = new GraphQLObjectType({
       resolve: pagination => pagination.words || []
     }
   })
-})
+});
 
 export default {
   name: "GetPaginatedWordsQuery",
@@ -35,6 +35,6 @@ export default {
   },
 
   resolve: (_: any, args: any, { mPool }: any) => {
-    return mongoDb(mPool).getWords(args)
+    return mongoDb(mPool).getWords(args);
   }
-}
+};

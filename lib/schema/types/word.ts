@@ -3,7 +3,7 @@ import {
   GraphQLList,
   GraphQLObjectType,
   GraphQLString
-} from "graphql"
+} from "graphql";
 
 export default new GraphQLObjectType({
   name: "WordType",
@@ -35,4 +35,4 @@ export default new GraphQLObjectType({
       resolve: word => word.usages || []
     }
   })
-})
+});
