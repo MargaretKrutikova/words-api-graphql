@@ -1,4 +1,4 @@
-import { DeleteWriteOpResultObject, MongoClient, ObjectId } from "mongodb";
+import { DeleteResult, MongoClient, ObjectId } from "mongodb";
 import { ApiWordEntity, WordMutationModel } from "../types";
 import { getReplacementFields } from "./util";
 
@@ -7,14 +7,12 @@ export type PaginatedWordsRequest = {
   readonly itemsPerPage: number;
 };
 
-export type DeleteWordResponse = DeleteWriteOpResultObject["result"];
-
 type MongoDbService = {
-  getWord: (wordId: ObjectId) => Promise<ApiWordEntity | null>;
+  getWord: (wordId: ObjectId) => Promise<ApiWordEntity | undefined>;
   getWords: (
     request: PaginatedWordsRequest
   ) => Promise<{ words: ApiWordEntity[]; total: number }>;
-  deleteWord: (id: string) => Promise<DeleteWordResponse>;
+  deleteWord: (id: string) => Promise<DeleteResult>;
   saveWord: (word: WordMutationModel) => Promise<ApiWordEntity | undefined>;
 };
 
@@ -39,16 +37,16 @@ export default (mPool: MongoClient): MongoDbService => {
       const values = await Promise.all([getPaginatedPromise, getTotalPromise]);
       return {
         words: values[0],
-        total: values[1]
+        total: values[1],
       };
     },
 
-    deleteWord: async (id: string): Promise<DeleteWordResponse> => {
+    deleteWord: async (id: string): Promise<DeleteResult> => {
       const data = await getWordsCollection().deleteOne({
-        _id: new ObjectId(id)
+        _id: new ObjectId(id),
       });
 
-      return data.result;
+      return data;
     },
 
     saveWord: async (word: WordMutationModel) => {
@@ -71,12 +69,12 @@ export default (mPool: MongoClient): MongoDbService => {
         { _id: new ObjectId(id) }, // query
         {
           $set: { ...fieldsToSet, ...setCreated, ...setUpdated },
-          ...unsetObj
+          ...unsetObj,
         }, // replacement object
         options
       );
 
       return data.value;
-    }
+    },
   };
 };
