@@ -4,6 +4,7 @@ type WordProperties = {
   readonly value: string;
   readonly translations?: ReadonlyArray<string>;
   readonly explanations?: ReadonlyArray<string>;
+  readonly tags?: ReadonlyArray<string>;
   readonly usages?: ReadonlyArray<string>;
 };
 
