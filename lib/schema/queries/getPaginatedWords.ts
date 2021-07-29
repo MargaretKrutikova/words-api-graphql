@@ -2,7 +2,7 @@ import {
   GraphQLInt,
   GraphQLList,
   GraphQLNonNull,
-  GraphQLObjectType
+  GraphQLObjectType,
 } from "graphql";
 
 import mongoDb from "../../database/mongodb";
@@ -14,13 +14,13 @@ const PaginatedWordsType = new GraphQLObjectType({
   fields: () => ({
     total: {
       type: GraphQLInt,
-      resolve: pagination => pagination.total
+      resolve: (pagination) => pagination.total,
     },
     items: {
       type: new GraphQLList(WordType),
-      resolve: pagination => pagination.words || []
-    }
-  })
+      resolve: (pagination) => pagination.words || [],
+    },
+  }),
 });
 
 export default {
@@ -31,10 +31,10 @@ export default {
     "Paginated words defined by the page and number of words per page",
   args: {
     page: { type: new GraphQLNonNull(GraphQLInt) },
-    itemsPerPage: { type: new GraphQLNonNull(GraphQLInt) }
+    itemsPerPage: { type: new GraphQLNonNull(GraphQLInt) },
   },
 
   resolve: (_: any, args: any, { mPool }: any) => {
     return mongoDb(mPool).getWords(args);
-  }
+  },
 };

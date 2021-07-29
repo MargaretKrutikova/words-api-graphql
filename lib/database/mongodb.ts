@@ -1,4 +1,9 @@
-import { DeleteResult, MongoClient, ObjectId } from "mongodb";
+import {
+  DeleteResult,
+  FindOneAndUpdateOptions,
+  MongoClient,
+  ObjectId,
+} from "mongodb";
 import { ApiWordEntity, WordMutationModel } from "../types";
 import { getReplacementFields } from "./util";
 
@@ -64,7 +69,11 @@ export default (mPool: MongoClient): MongoDbService => {
           ? { $unset: { ...fieldsToUnset } }
           : {};
 
-      const options = { upsert: true, returnOriginal: false };
+      const options: FindOneAndUpdateOptions = {
+        upsert: true,
+        returnDocument: "after",
+      };
+
       const data = await getWordsCollection().findOneAndUpdate(
         { _id: new ObjectId(id) }, // query
         {
