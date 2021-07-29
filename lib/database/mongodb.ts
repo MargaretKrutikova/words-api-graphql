@@ -10,6 +10,7 @@ import { getReplacementFields } from "./util";
 export type PaginatedWordsRequest = {
   readonly page: number;
   readonly itemsPerPage: number;
+  readonly tags: ReadonlyArray<string> | undefined;
 };
 
 type MongoDbService = {
@@ -29,15 +30,23 @@ export default (mPool: MongoClient): MongoDbService => {
     getWord: (wordId: ObjectId) =>
       getWordsCollection().findOne({ _id: new ObjectId(wordId) }),
 
-    getWords: async ({ page, itemsPerPage }: PaginatedWordsRequest) => {
-      const getPaginatedPromise = getWordsCollection()
-        .find()
+    getWords: async ({ page, itemsPerPage, tags }: PaginatedWordsRequest) => {
+      const getTagsFilter = () => {
+        if (tags === undefined) return {};
+        else if (tags.length === 0)
+          return { $or: [{ tags: undefined }, { tags: [] }] };
+        else return { tags: { $all: [...tags] } };
+      };
+
+      const filteredWordCollection = getWordsCollection().find(getTagsFilter());
+
+      const getPaginatedPromise = filteredWordCollection
         .sort({ createdDate: -1 })
         .limit(itemsPerPage)
         .skip(page > 0 ? (page - 1) * itemsPerPage : 0)
         .toArray();
 
-      const getTotalPromise = getWordsCollection().countDocuments();
+      const getTotalPromise = filteredWordCollection.count();
 
       const values = await Promise.all([getPaginatedPromise, getTotalPromise]);
       return {

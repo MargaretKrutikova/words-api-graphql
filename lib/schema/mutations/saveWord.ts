@@ -2,7 +2,7 @@ import {
   GraphQLInputObjectType,
   GraphQLList,
   GraphQLNonNull,
-  GraphQLString
+  GraphQLString,
 } from "graphql";
 
 import mongoDb from "../../database/mongodb";
@@ -14,15 +14,18 @@ const WordInputType = new GraphQLInputObjectType({
     id: { type: GraphQLString },
     value: { type: new GraphQLNonNull(GraphQLString) },
     translations: {
-      type: new GraphQLList(GraphQLString)
+      type: new GraphQLList(GraphQLString),
     },
     explanations: {
-      type: new GraphQLList(GraphQLString)
+      type: new GraphQLList(GraphQLString),
+    },
+    tags: {
+      type: new GraphQLList(GraphQLString),
     },
     usages: {
-      type: new GraphQLList(GraphQLString)
-    }
-  })
+      type: new GraphQLList(GraphQLString),
+    },
+  }),
 });
 
 export default {
@@ -31,9 +34,9 @@ export default {
   type: WordType,
   // user's input
   args: {
-    input: { type: new GraphQLNonNull(WordInputType) }
+    input: { type: new GraphQLNonNull(WordInputType) },
   },
   resolve: (_: any, { input }: any, { mPool }: any) => {
     return mongoDb(mPool).saveWord(input);
-  }
+  },
 };

@@ -3,6 +3,7 @@ import {
   GraphQLList,
   GraphQLNonNull,
   GraphQLObjectType,
+  GraphQLString,
 } from "graphql";
 
 import mongoDb from "../../database/mongodb";
@@ -28,10 +29,11 @@ export default {
 
   type: PaginatedWordsType,
   description:
-    "Paginated words defined by the page and number of words per page",
+    "Paginated words defined by the page and number of words per page filtered by tags",
   args: {
     page: { type: new GraphQLNonNull(GraphQLInt) },
     itemsPerPage: { type: new GraphQLNonNull(GraphQLInt) },
+    tags: { type: new GraphQLList(GraphQLString) },
   },
 
   resolve: (_: any, args: any, { mPool }: any) => {

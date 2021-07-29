@@ -8,13 +8,14 @@ Query for a paginated list:
 
 ```
 {
-  words(page:1, itemsPerPage: 20) {
+  words(page:1, itemsPerPage: 20, tags: ["swedish"]) {
     total
     items {
-      id,
-      value,
-      createdDate,
+      id
+      value
+      createdDate
       updatedDate
+      tags
     }
   }
 }
@@ -26,7 +27,7 @@ Query for a single word:
 ```
 {
   word(key:"5c82fee9062cd50f5615736b") {
-    value,
+    value
     translations
   }
 }
@@ -36,9 +37,9 @@ Adding a new word:
 
 ```
 mutation {
-  SaveWord(input: { value: "hej", translations: ["hello"]}) {
-    id,
-    value,
+  SaveWord(input: { value: "hej", translations: ["hello"], tags: ["swedish"]}) {
+    id
+    value
     createdDate
   }
 }
@@ -48,10 +49,10 @@ Updating an existing word:
 
 ```
 mutation {
-  SaveWord(input: { id: "5c8307150f2cac142a3901bb", value: "hej hej", translations: ["Hello hello"]}) {
-    id,
-    value,
-    createdDate,
+  SaveWord(input: { id: "5c8307150f2cac142a3901bb", value: "hej hej", translations: ["Hello hello"], tags: ["swedish"]}) {
+    id
+    value
+    createdDate
     updatedDate
   }
 }
