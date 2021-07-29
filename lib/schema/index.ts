@@ -11,8 +11,8 @@ const RootQueryType = new GraphQLObjectType({
   name: "RootQueryType",
   fields: () => ({
     word: getWordQuery,
-    words: getPaginatedWordsQuery
-  })
+    words: getPaginatedWordsQuery,
+  }),
 });
 
 // graphql object with a name and fields, but fields are commands
@@ -20,14 +20,14 @@ const RootMutationType = new GraphQLObjectType({
   name: "RootMutationType",
   fields: () => ({
     saveWord: saveWordMutation,
-    deleteWord: deleteWordMutation
-  })
+    deleteWord: deleteWordMutation,
+  }),
 });
 
 const ncSchema = new GraphQLSchema({
   // those too are expected to be GraphQLObjectType
   query: RootQueryType,
-  mutation: RootMutationType
+  mutation: RootMutationType,
 });
 
 export default ncSchema;
