@@ -8,7 +8,7 @@ import "./env";
 // 2. execute it against the schema
 // 3. respond back to the user using the execution result
 import { graphqlHTTP } from "express-graphql"; // function ready to be plugged into the express route
-import { MongoClient, MongoError } from "mongodb";
+import { AnyError, MongoClient } from "mongodb";
 
 import config from "./config/mongo";
 import ncSchema from "./schema";
@@ -20,14 +20,14 @@ console.log(`Running in ${nodeEnv} mode...`);
 const app = express();
 
 // select the configuration for the current node environment
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const url = config.url!;
 assert.notEqual(url, undefined);
 
 // connect to mongodb
 MongoClient.connect(
   url,
-  { useNewUrlParser: true },
-  (err: MongoError, mPool: MongoClient) => {
+  (err: AnyError | undefined, mPool: MongoClient | undefined) => {
     assert.equal(err, null);
 
     app.use(cors());
@@ -39,7 +39,7 @@ MongoClient.connect(
         schema: ncSchema,
         // enables local editor
         graphiql: true,
-        context: { mPool }
+        context: { mPool },
       })(req, res);
     });
 

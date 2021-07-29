@@ -3,26 +3,28 @@ import {
   GraphQLInputObjectType,
   GraphQLNonNull,
   GraphQLObjectType,
-  GraphQLString
+  GraphQLString,
 } from "graphql";
+import { DeleteResult } from "mongodb";
 
-import mongoDb, { DeleteWordResponse } from "../../database/mongodb";
+import mongoDb from "../../database/mongodb";
 
 const deleteWordType = new GraphQLObjectType({
   name: "DeleteWordType",
   fields: () => ({
     deleted: {
       type: GraphQLBoolean,
-      resolve: (resp: DeleteWordResponse) => resp.ok && !!resp.n && resp.n >= 1
-    }
-  })
+      resolve: (resp: DeleteResult) =>
+        resp.acknowledged && !!resp.deletedCount && resp.deletedCount >= 1,
+    },
+  }),
 });
 
 const WordInputType = new GraphQLInputObjectType({
   name: "DeleteWordInputType",
   fields: () => ({
-    id: { type: GraphQLString }
-  })
+    id: { type: GraphQLString },
+  }),
 });
 
 export default {
@@ -31,9 +33,9 @@ export default {
   type: deleteWordType,
   // user's input
   args: {
-    input: { type: new GraphQLNonNull(WordInputType) }
+    input: { type: new GraphQLNonNull(WordInputType) },
   },
   resolve: (_: any, { input }: any, { mPool }: any) => {
     return mongoDb(mPool).deleteWord(input.id);
-  }
+  },
 };

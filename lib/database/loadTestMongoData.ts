@@ -1,6 +1,6 @@
 import assert from "assert";
 import "../env";
-import { MongoClient, MongoError } from "mongodb";
+import { AnyError, MongoClient } from "mongodb";
 import config from "../config/mongo";
 import { WordDbModel } from "../types";
 
@@ -9,12 +9,12 @@ assert.notStrictEqual(config.url, undefined);
 MongoClient.connect(
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   config.url!,
-  { useNewUrlParser: true },
-  (err: MongoError, mPool: MongoClient) => {
-    assert.equal(null, err);
+  (err: AnyError | undefined, mPool: MongoClient | undefined) => {
+    assert.equal(undefined, err);
+    assert.notEqual(undefined, mPool);
 
     mPool
-      .db()
+      ?.db()
       .collection<WordDbModel>("words")
       .insertMany([
         {
