@@ -7,7 +7,7 @@ import "./env";
 // 1. extract the query
 // 2. execute it against the schema
 // 3. respond back to the user using the execution result
-import graphqlHTTP from "express-graphql"; // function ready to be plugged into the express route
+import { graphqlHTTP } from "express-graphql"; // function ready to be plugged into the express route
 import { MongoClient, MongoError } from "mongodb";
 
 import config from "./config/mongo";
