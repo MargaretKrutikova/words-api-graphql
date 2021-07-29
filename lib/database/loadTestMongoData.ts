@@ -20,21 +20,25 @@ MongoClient.connect(
         {
           value: "att få sparken från jobbet",
           translations: ["to get fired"],
+          tags: ["swedish"],
           createdDate: new Date(),
         },
         {
           value: "knarka, knarkigt",
           translations: ["do drugs"],
+          tags: ["swedish"],
           createdDate: new Date(),
         },
         {
           value: "att lagra, lagring",
           translations: ["to store, storage"],
+          tags: ["swedish"],
           createdDate: new Date(),
         },
         {
           value: "att ta i som ett djur",
           explanations: ["t.ex. träning"],
+          tags: ["swedish"],
           createdDate: new Date(),
         },
         {
@@ -84,6 +88,7 @@ MongoClient.connect(
           value: "att glo, glor",
           translations: ["stare"],
           usages: ["vad glor du på? varför glor du?"],
+          tags: ["swedish", "slang"],
           createdDate: new Date(),
         },
         {
@@ -91,6 +96,7 @@ MongoClient.connect(
           translations: ["smile", "ухмыляться"],
           usages: ["vad flinar du åt?"],
           explanations: ["oft negativt sammanhang"],
+          tags: ["swedish", "slang", "negative"],
           createdDate: new Date(),
         },
         {
@@ -131,6 +137,7 @@ MongoClient.connect(
         {
           value: "giggig",
           translations: ["Липкий, слякотный "],
+          tags: ["swedish", "russian"],
           createdDate: new Date(),
         },
       ])
