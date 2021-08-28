@@ -15,7 +15,7 @@ variables:
   webAppName: 'words-api-graphql'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'development'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
