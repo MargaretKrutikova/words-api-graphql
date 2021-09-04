@@ -22,9 +22,13 @@ type MongoDbService = {
   saveWord: (word: WordMutationModel) => Promise<ApiWordEntity | undefined>;
 };
 
-export default (mPool: MongoClient): MongoDbService => {
+export default (
+  mPool: MongoClient,
+  dbName: string,
+  collectionName: string
+): MongoDbService => {
   const getWordsCollection = () =>
-    mPool.db().collection<ApiWordEntity>("words");
+    mPool.db(dbName).collection<ApiWordEntity>(collectionName);
 
   return {
     getWord: (wordId: ObjectId) =>
