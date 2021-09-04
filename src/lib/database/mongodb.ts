@@ -73,12 +73,32 @@ export default (
 
     saveWord: async (word: WordMutationModel) => {
       const date = new Date();
-      const { id, ...fieldsToSave } = word;
+
+      const {
+        id,
+        createdDate: createdDateString,
+        updatedDate: updatedDateString,
+        ...fieldsToSave
+      } = word;
+
+      const getCreatedDateIfNew = () => (!id ? date : undefined);
+
+      const createdDate = createdDateString
+        ? new Date(createdDateString)
+        : getCreatedDateIfNew();
+
+      const updatedDate = updatedDateString
+        ? new Date(updatedDateString)
+        : date;
 
       const { fieldsToSet, fieldsToUnset } = getReplacementFields(fieldsToSave);
 
-      const setCreated = !id ? { createdDate: date } : {};
-      const setUpdated = { updatedDate: date };
+      const setCreated = createdDate
+        ? { createdDate: new Date(createdDate) }
+        : {};
+      const setUpdated = updatedDate
+        ? { updatedDate: new Date(updatedDate) }
+        : {};
 
       // if $unset is an empty object, mongo will throw an exception.
       const unsetObj =

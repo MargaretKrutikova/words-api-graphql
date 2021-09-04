@@ -25,6 +25,12 @@ const WordInputType = new GraphQLInputObjectType({
     usages: {
       type: new GraphQLList(GraphQLString),
     },
+    createdDate: {
+      type: GraphQLString,
+    },
+    updatedDate: {
+      type: GraphQLString,
+    },
   }),
 });
 
