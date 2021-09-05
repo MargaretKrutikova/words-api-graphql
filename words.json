@@ -1,0 +1,1858 @@
+[
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcce" },
+    "value": "att få sparken från jobbet",
+    "translations": ["to get fired"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dccf" },
+    "value": "knarka, knarkigt",
+    "translations": ["do drugs"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd0" },
+    "value": "att lagra, lagring",
+    "translations": ["to store, storage"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd1" },
+    "value": "att ta i som ett djur",
+    "explanations": ["t.ex. träning"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd2" },
+    "value": "synvinkel",
+    "translations": ["point of view"],
+    "usages": ["från/ur min synvinkel"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd3" },
+    "value": "inspirerad",
+    "usages": ["jag är inspirerad av någon"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd4" },
+    "value": "att klumpa ihop",
+    "translations": ["lump together", "смешивать в кучу"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd5" },
+    "value": "ivrig, ivrigt",
+    "translations": ["eager", "zealous", "усердно"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd6" },
+    "value": "flitig",
+    "translations": ["diligent", "hard-working"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd7" },
+    "value": "ytlig",
+    "translations": ["external", "superficial", "поверхностный"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd8" },
+    "value": "petig",
+    "translations": ["мелочный"],
+    "explanations": ["för noggrann", "pedantisk"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcd9" },
+    "value": "kräsen",
+    "translations": ["picky"],
+    "explanations": ["om mat t.ex."],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcda" },
+    "value": "att glo, glor",
+    "translations": ["stare"],
+    "usages": ["vad glor du på? varför glor du?"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcdb" },
+    "value": "att flina, flinar",
+    "translations": ["smile", "ухмыляться"],
+    "usages": ["vad flinar du åt?"],
+    "explanations": ["oft negativt sammanhang"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcdc" },
+    "value": "fylla upp tomrum ",
+    "explanations": ["Säga någonting för att det inte ska bli tyst"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcdd" },
+    "value": "en fälla",
+    "translations": ["trap"],
+    "usages": ["musfälla - mouse trap"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcde" },
+    "value": "fjäder",
+    "translations": ["spring, пружина"],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" }
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dcdf" },
+    "value": "föredömligt",
+    "translations": ["Образцовый, показательный "],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" },
+    "updatedDate": 1.529052778783e12
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dce0" },
+    "value": "skidskytte",
+    "translations": ["Biathlon "],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" },
+    "updatedDate": 1.529070198313e12
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dce1" },
+    "value": "förnedrande ",
+    "translations": ["Nedsättande, унизительно "],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" },
+    "updatedDate": 1.529348506868e12
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dce2" },
+    "value": "ångestladdad dag",
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" },
+    "updatedDate": 1.529395630682e12
+  },
+  {
+    "_id": { "$oid": "5b7ac970038a76402290dce3" },
+    "value": "giggig",
+    "translations": ["Липкий, слякотный "],
+    "createdDate": { "$date": "2018-08-20T14:00:16.741Z" },
+    "updatedDate": 1.529395673209e12
+  },
+  {
+    "_id": { "$oid": "5b87ac398d94ec5102e7c089" },
+    "createdDate": { "$date": "2018-08-30T08:35:05.889Z" },
+    "explanations": ["en stor hink", "Tobias om min stora mugg"],
+    "translations": ["tub"],
+    "updatedDate": { "$date": "2018-08-30T08:35:05.889Z" },
+    "usages": ["mugg som en balja"],
+    "value": "en balja"
+  },
+  {
+    "_id": { "$oid": "5b88f1b68d94ec5102e7c08a" },
+    "createdDate": { "$date": "2018-08-31T07:43:50.471Z" },
+    "explanations": [
+      "\"pilutta\" eller \"pilutta dig\" använder man om man vill visa sig överlägsen och göra någon avundsjuk"
+    ],
+    "updatedDate": { "$date": "2018-08-31T07:43:50.471Z" },
+    "usages": ["Adam piluttar sina hackerskills"],
+    "value": "pilutta dig"
+  },
+  {
+    "_id": { "$oid": "5b8fba588d94ec5102e7c08b" },
+    "createdDate": { "$date": "2018-09-05T11:13:28.027Z" },
+    "translations": ["fight through, endure smth tough "],
+    "updatedDate": { "$date": "2018-09-05T11:13:28.027Z" },
+    "usages": ["det är bara att bita ihop"],
+    "value": "att bita ihop"
+  },
+  {
+    "_id": { "$oid": "5b8fc9148d94ec5102e7c08c" },
+    "createdDate": { "$date": "2018-09-05T12:16:20.541Z" },
+    "translations": ["broaden"],
+    "updatedDate": { "$date": "2018-09-05T12:16:20.541Z" },
+    "usages": ["vidga kompetensen på bolaget"],
+    "value": "att vidga"
+  },
+  {
+    "_id": { "$oid": "5b9b810b8d94ec5102e7c08d" },
+    "createdDate": { "$date": "2018-09-14T09:36:11.754Z" },
+    "translations": ["exceed one's expectations", "превзойти ожидания"],
+    "updatedDate": { "$date": "2018-09-14T09:36:11.754Z" },
+    "value": "överträffa sina förväntningar"
+  },
+  {
+    "_id": { "$oid": "5b9bfe388d94ec5102e7c08e" },
+    "createdDate": { "$date": "2018-09-14T18:30:16.007Z" },
+    "translations": ["ridicule "],
+    "updatedDate": { "$date": "2019-03-23T12:05:33.049Z" },
+    "value": "publikens hån "
+  },
+  {
+    "_id": { "$oid": "5c977160d9a70d074a65cb69" },
+    "createdDate": { "$date": "2019-03-24T12:00:32.812Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-03-24T12:00:32.812Z" },
+    "usages": ["vara tokig"],
+    "value": "ha en skruv lös"
+  },
+  {
+    "_id": { "$oid": "5c98fa29d9a70d074a65cb6a" },
+    "createdDate": { "$date": "2019-03-25T15:56:25.330Z" },
+    "explanations": ["Följa med"],
+    "translations": ["Join"],
+    "updatedDate": { "$date": "2019-03-25T15:56:33.784Z" },
+    "usages": [""],
+    "value": "Haka på"
+  },
+  {
+    "_id": { "$oid": "5c99ee75d9a70d074a65cb6b" },
+    "createdDate": { "$date": "2019-03-26T09:18:45.170Z" },
+    "updatedDate": { "$date": "2019-03-26T09:24:30.742Z" },
+    "value": "Är du den som lyser upp rummet när du kommer eller går? :)"
+  },
+  {
+    "_id": { "$oid": "5c99ff58d9a70d074a65cb6c" },
+    "createdDate": { "$date": "2019-03-26T10:30:48.352Z" },
+    "explanations": [""],
+    "translations": ["по настроению, произвольный"],
+    "updatedDate": { "$date": "2019-03-26T10:30:48.352Z" },
+    "usages": [""],
+    "value": "godtyckligt"
+  },
+  {
+    "_id": { "$oid": "5c9b6eddd9a70d074a65cb6d" },
+    "createdDate": { "$date": "2019-03-27T12:38:53.336Z" },
+    "explanations": [""],
+    "translations": ["Болото"],
+    "updatedDate": { "$date": "2019-03-27T12:38:53.336Z" },
+    "usages": [""],
+    "value": "Träsket"
+  },
+  {
+    "_id": { "$oid": "5c9ce909d9a70d074a65cb6e" },
+    "createdDate": { "$date": "2019-03-28T15:32:25.450Z" },
+    "explanations": [""],
+    "translations": ["Грубый, grov"],
+    "updatedDate": { "$date": "2019-03-28T15:32:25.450Z" },
+    "usages": [""],
+    "value": "Krass"
+  },
+  {
+    "_id": { "$oid": "5ca7a061d9a70d074a65cb6f" },
+    "createdDate": { "$date": "2019-04-05T18:37:21.940Z" },
+    "explanations": ["Svettig, med lökringar under armar"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-04-05T18:37:21.940Z" },
+    "usages": [""],
+    "value": "lökig"
+  },
+  {
+    "_id": { "$oid": "5cac7c20d9a70d074a65cb70" },
+    "createdDate": { "$date": "2019-04-09T11:04:00.597Z" },
+    "explanations": ["Discard an item at high velocity"],
+    "translations": ["Yeet - engelska"],
+    "updatedDate": { "$date": "2019-04-09T11:04:00.597Z" },
+    "usages": ["Att yeet:a"],
+    "value": "Yeet:a"
+  },
+  {
+    "_id": { "$oid": "5cadb5eed9a70d074a65cb71" },
+    "createdDate": { "$date": "2019-04-10T09:22:54.427Z" },
+    "explanations": ["Ha förtroende för någon "],
+    "translations": ["Lita"],
+    "updatedDate": { "$date": "2019-04-10T09:22:54.427Z" },
+    "usages": [""],
+    "value": "Tro på någon"
+  },
+  {
+    "_id": { "$oid": "5cadb8dcd9a70d074a65cb72" },
+    "createdDate": { "$date": "2019-04-10T09:35:24.980Z" },
+    "explanations": ["Besvärligt, komplicerad"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-04-10T09:35:24.980Z" },
+    "usages": [""],
+    "value": "Knöligt"
+  },
+  {
+    "_id": { "$oid": "5cb5a9f6d9a70d074a65cb73" },
+    "createdDate": { "$date": "2019-04-16T10:09:58.122Z" },
+    "explanations": ["Man kan göra det för att lista ut något"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-04-16T10:09:58.122Z" },
+    "usages": [""],
+    "value": "Spåna från det hållet"
+  },
+  {
+    "_id": { "$oid": "5cbebcabd9a70d074a65cb74" },
+    "createdDate": { "$date": "2019-04-23T07:20:11.955Z" },
+    "explanations": [""],
+    "translations": ["Moved forward "],
+    "updatedDate": { "$date": "2019-04-23T07:20:11.955Z" },
+    "usages": [""],
+    "value": "Framflyttat "
+  },
+  {
+    "_id": { "$oid": "5cbed28ad9a70d074a65cb75" },
+    "createdDate": { "$date": "2019-04-23T08:53:30.569Z" },
+    "explanations": ["Göra långsammare"],
+    "translations": ["Slow down"],
+    "updatedDate": { "$date": "2019-04-23T08:53:30.569Z" },
+    "usages": [""],
+    "value": "Sega ned "
+  },
+  {
+    "_id": { "$oid": "5cc090b0d9a70d074a65cb76" },
+    "createdDate": { "$date": "2019-04-24T16:37:04.235Z" },
+    "explanations": ["Ett skämt bara ;)"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-04-24T16:37:04.235Z" },
+    "usages": [""],
+    "value": "Bränna ned - bygga upp"
+  },
+  {
+    "_id": { "$oid": "5cc5a9b7d9a70d074a65cb77" },
+    "createdDate": { "$date": "2019-04-28T13:25:11.449Z" },
+    "explanations": ["Bromsa plötsligt "],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-04-28T13:25:11.449Z" },
+    "usages": [""],
+    "value": "Tvärnita"
+  },
+  {
+    "_id": { "$oid": "5cc5ab17d9a70d074a65cb78" },
+    "createdDate": { "$date": "2019-04-28T13:31:03.237Z" },
+    "explanations": [""],
+    "translations": ["Anxious, nervous "],
+    "updatedDate": { "$date": "2020-02-19T11:38:07.080Z" },
+    "usages": [""],
+    "value": "Nojjig"
+  },
+  {
+    "_id": { "$oid": "5ccacd81d9a70d074a65cb79" },
+    "createdDate": { "$date": "2019-05-02T10:59:13.143Z" },
+    "explanations": ["Mental styrka"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-05-02T10:59:55.309Z" },
+    "usages": ["Visa pannben"],
+    "value": "Pannben"
+  },
+  {
+    "_id": { "$oid": "5ccb3a36d9a70d074a65cb7a" },
+    "createdDate": { "$date": "2019-05-02T18:43:02.569Z" },
+    "explanations": ["En aning, uppfattning"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-05-02T18:43:02.569Z" },
+    "usages": [""],
+    "value": "Hum"
+  },
+  {
+    "_id": { "$oid": "5ccc891bd9a70d074a65cb7b" },
+    "createdDate": { "$date": "2019-05-03T18:31:55.189Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-05-03T18:31:55.189Z" },
+    "usages": [""],
+    "value": "Smuggla in"
+  },
+  {
+    "_id": { "$oid": "5ccd61f0d9a70d074a65cb7c" },
+    "createdDate": { "$date": "2019-05-04T09:57:04.913Z" },
+    "explanations": ["Slang för huvud"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-05-04T09:57:04.913Z" },
+    "usages": ["Träffade rätt i pallet "],
+    "value": "Pallet "
+  },
+  {
+    "_id": { "$oid": "5ccd7efcd9a70d074a65cb7d" },
+    "createdDate": { "$date": "2019-05-04T12:01:00.456Z" },
+    "explanations": ["Lilja :)"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-05-04T12:01:00.456Z" },
+    "usages": [""],
+    "value": "Slapp i nacken"
+  },
+  {
+    "_id": { "$oid": "5cd32e22d9a70d074a65cb7e" },
+    "createdDate": { "$date": "2019-05-08T19:29:38.467Z" },
+    "explanations": ["Amerikanare "],
+    "translations": ["Yankee"],
+    "updatedDate": { "$date": "2019-05-08T19:29:38.467Z" },
+    "usages": [""],
+    "value": "Jänkare"
+  },
+  {
+    "_id": { "$oid": "5cd6bea177cef8005da06c7d" },
+    "createdDate": { "$date": "2019-05-11T12:22:57.112Z" },
+    "explanations": ["Komma åt"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-05-11T12:22:57.112Z" },
+    "usages": [""],
+    "value": "Vidrör"
+  },
+  {
+    "_id": { "$oid": "5cdfd4577b54750052febefa" },
+    "createdDate": { "$date": "2019-05-18T09:45:59.420Z" },
+    "explanations": [""],
+    "translations": ["Snett, косо/криво, wryly "],
+    "updatedDate": { "$date": "2019-05-18T09:45:59.420Z" },
+    "usages": ["Han läste skevt :)"],
+    "value": "Skevt "
+  },
+  {
+    "_id": { "$oid": "5ce55cea7b54750052febefb" },
+    "createdDate": { "$date": "2019-05-22T14:30:02.892Z" },
+    "updatedDate": { "$date": "2019-05-22T14:30:02.892Z" },
+    "value": "Hemmasnickrat"
+  },
+  {
+    "_id": { "$oid": "5ce571eb7b54750052febefc" },
+    "createdDate": { "$date": "2019-05-22T15:59:39.198Z" },
+    "updatedDate": { "$date": "2019-05-22T16:00:01.309Z" },
+    "value": "Taket kan rasa in",
+    "usages": ["När som helst :) (Cristopher)"]
+  },
+  {
+    "_id": { "$oid": "5ce7c13a7b54750052febefd" },
+    "createdDate": { "$date": "2019-05-24T10:02:34.181Z" },
+    "explanations": [""],
+    "translations": ["Skippa, vänta till nästa gång"],
+    "updatedDate": { "$date": "2019-05-24T10:02:34.181Z" },
+    "usages": ["Jag står över gym idag"],
+    "value": "Stå över"
+  },
+  {
+    "_id": { "$oid": "5ce95d337b54750052febefe" },
+    "createdDate": { "$date": "2019-05-25T15:20:19.901Z" },
+    "explanations": [""],
+    "translations": ["Крапива"],
+    "updatedDate": { "$date": "2019-05-25T15:20:19.901Z" },
+    "usages": [""],
+    "value": "Brännässla"
+  },
+  {
+    "_id": { "$oid": "5ceadcda7b54750052febeff" },
+    "createdDate": { "$date": "2019-05-26T18:37:14.659Z" },
+    "updatedDate": { "$date": "2019-05-26T18:37:14.659Z" },
+    "value": "Tryck bort"
+  },
+  {
+    "_id": { "$oid": "5ceaf5197b54750052febf00" },
+    "createdDate": { "$date": "2019-05-26T20:20:41.454Z" },
+    "explanations": [""],
+    "translations": ["Slang för mage, kista"],
+    "updatedDate": { "$date": "2019-05-26T20:20:41.454Z" },
+    "usages": ["Ölkagge, ont i kistan"],
+    "value": "Kagge"
+  },
+  {
+    "_id": { "$oid": "5cf7be6f7b54750052febf01" },
+    "createdDate": { "$date": "2019-06-05T13:06:55.656Z" },
+    "explanations": ["yttrande som innehåller en halvt dold elakhet"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-06-05T13:06:55.656Z" },
+    "usages": ["Är det en pik mot mig?"],
+    "value": "Pik"
+  },
+  {
+    "_id": { "$oid": "5cf7eb167b54750052febf02" },
+    "createdDate": { "$date": "2019-06-05T16:17:26.735Z" },
+    "explanations": [""],
+    "translations": ["Gråta, grina"],
+    "updatedDate": { "$date": "2019-06-14T08:30:00.025Z" },
+    "usages": [""],
+    "value": "Lipa"
+  },
+  {
+    "_id": { "$oid": "5cfd5d9f7b54750052febf03" },
+    "createdDate": { "$date": "2019-06-09T19:27:27.462Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-06-11T16:23:26.762Z" },
+    "usages": ["Om protein shake"],
+    "value": "Utspädd"
+  },
+  {
+    "_id": { "$oid": "5cffd56e7b54750052febf04" },
+    "createdDate": { "$date": "2019-06-11T16:23:10.140Z" },
+    "updatedDate": { "$date": "2019-06-11T16:23:10.140Z" },
+    "value": "Skälla ut"
+  },
+  {
+    "_id": { "$oid": "5d0146457b54750052febf05" },
+    "createdDate": { "$date": "2019-06-12T18:36:53.810Z" },
+    "explanations": ["(c) Robin"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-06-12T18:36:53.810Z" },
+    "usages": [""],
+    "value": "Splasha runt i barnpoolen"
+  },
+  {
+    "_id": { "$oid": "5d0281387b54750052febf06" },
+    "createdDate": { "$date": "2019-06-13T17:00:40.588Z" },
+    "explanations": [""],
+    "translations": ["To rat, snitch"],
+    "updatedDate": { "$date": "2019-06-13T17:00:40.588Z" },
+    "usages": [""],
+    "value": "Tjalla"
+  },
+  {
+    "_id": { "$oid": "5d0654f37b54750052febf07" },
+    "createdDate": { "$date": "2019-06-16T14:40:51.577Z" },
+    "explanations": [""],
+    "translations": ["Leak/heal"],
+    "updatedDate": { "$date": "2019-06-16T14:40:51.577Z" },
+    "usages": [""],
+    "value": "Läckt/läkt"
+  },
+  {
+    "_id": { "$oid": "5d0a30547b54750052febf08" },
+    "createdDate": { "$date": "2019-06-19T12:53:40.132Z" },
+    "explanations": ["Oväntat "],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-06-19T12:53:40.132Z" },
+    "usages": [""],
+    "value": "Otippat"
+  },
+  {
+    "_id": { "$oid": "5d1dc4b17b54750052febf09" },
+    "createdDate": { "$date": "2019-07-04T09:19:45.633Z" },
+    "explanations": [""],
+    "translations": ["Abandoned"],
+    "updatedDate": { "$date": "2019-07-04T09:19:45.633Z" },
+    "usages": [""],
+    "value": "Övergiven"
+  },
+  {
+    "_id": { "$oid": "5d272ea87b54750052febf0a" },
+    "createdDate": { "$date": "2019-07-11T12:42:16.536Z" },
+    "explanations": ["Inte samma som på skoj!"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-07-11T12:42:16.536Z" },
+    "usages": [""],
+    "value": "För att ha skoj"
+  },
+  {
+    "_id": { "$oid": "5d2c2eb07b54750052febf0b" },
+    "createdDate": { "$date": "2019-07-15T07:43:44.779Z" },
+    "updatedDate": { "$date": "2019-07-15T07:43:44.779Z" },
+    "value": "Shoppa bort varenda krona"
+  },
+  {
+    "_id": { "$oid": "5d3845767b54750052febf0c" },
+    "createdDate": { "$date": "2019-07-24T11:48:06.878Z" },
+    "explanations": ["Göra uppehåll tills vidare"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-07-24T11:48:06.878Z" },
+    "usages": [""],
+    "value": "Lägga på is"
+  },
+  {
+    "_id": { "$oid": "5d3970457b54750052febf0d" },
+    "createdDate": { "$date": "2019-07-25T09:03:01.502Z" },
+    "updatedDate": { "$date": "2019-07-25T09:03:01.502Z" },
+    "value": "Uppkäftig"
+  },
+  {
+    "_id": { "$oid": "5d39704a7b54750052febf0e" },
+    "createdDate": { "$date": "2019-07-25T09:03:06.381Z" },
+    "updatedDate": { "$date": "2019-07-25T09:41:28.838Z" },
+    "value": "Påtagligt",
+    "translations": ["Очевидный, заметный"]
+  },
+  {
+    "_id": { "$oid": "5d39704f7b54750052febf0f" },
+    "createdDate": { "$date": "2019-07-25T09:03:11.244Z" },
+    "updatedDate": { "$date": "2019-07-25T09:40:58.596Z" },
+    "value": "Genomsyra",
+    "translations": ["Пропитать"]
+  },
+  {
+    "_id": { "$oid": "5d3973a47b54750052febf10" },
+    "createdDate": { "$date": "2019-07-25T09:17:24.711Z" },
+    "updatedDate": { "$date": "2019-07-25T09:40:24.905Z" },
+    "value": "Benägen för att göra",
+    "translations": ["Inclined to do smth"]
+  },
+  {
+    "_id": { "$oid": "5d48aa3e7b54750052febf11" },
+    "createdDate": { "$date": "2019-08-05T22:14:22.069Z" },
+    "explanations": [""],
+    "translations": ["Spy, poke around"],
+    "updatedDate": { "$date": "2019-08-05T22:14:22.069Z" },
+    "usages": [""],
+    "value": "Snoka runt"
+  },
+  {
+    "_id": { "$oid": "5d496d487b54750052febf12" },
+    "createdDate": { "$date": "2019-08-06T12:06:32.729Z" },
+    "explanations": ["Övermätt"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-08-06T12:06:32.729Z" },
+    "usages": [""],
+    "value": "Däst"
+  },
+  {
+    "_id": { "$oid": "5d4976327b54750052febf13" },
+    "createdDate": { "$date": "2019-08-06T12:44:34.249Z" },
+    "explanations": ["Bräcklig, känslig"],
+    "translations": ["Brittle, delicate"],
+    "updatedDate": { "$date": "2019-08-06T12:44:50.959Z" },
+    "usages": [""],
+    "value": "Skör"
+  },
+  {
+    "_id": { "$oid": "5d49d4ef7b54750052febf14" },
+    "createdDate": { "$date": "2019-08-06T19:28:47.630Z" },
+    "explanations": ["Invecklad, otydlig"],
+    "translations": ["Messy"],
+    "updatedDate": { "$date": "2019-08-06T19:28:47.630Z" },
+    "usages": [""],
+    "value": "Grötig"
+  },
+  {
+    "_id": { "$oid": "5d5804d47b54750052febf15" },
+    "createdDate": { "$date": "2019-08-17T13:44:52.245Z" },
+    "explanations": [""],
+    "translations": ["Talk gibberish"],
+    "updatedDate": { "$date": "2019-08-17T13:44:52.245Z" },
+    "usages": [""],
+    "value": "Tala i tungor"
+  },
+  {
+    "_id": { "$oid": "5d5a8c2b7b54750052febf16" },
+    "createdDate": { "$date": "2019-08-19T11:46:51.564Z" },
+    "explanations": [""],
+    "translations": ["Заземлить"],
+    "updatedDate": { "$date": "2019-08-19T11:46:51.564Z" },
+    "usages": [""],
+    "value": "Att jorda sig"
+  },
+  {
+    "_id": { "$oid": "5d5bb0087b54750052febf17" },
+    "createdDate": { "$date": "2019-08-20T08:32:08.885Z" },
+    "explanations": [""],
+    "translations": ["Fullt"],
+    "updatedDate": { "$date": "2019-08-20T08:32:08.885Z" },
+    "usages": [""],
+    "value": "Smockfullt "
+  },
+  {
+    "_id": { "$oid": "5d5bdca47b54750052febf18" },
+    "createdDate": { "$date": "2019-08-20T11:42:28.104Z" },
+    "explanations": ["Stjälla, sno"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-11-10T18:56:59.261Z" },
+    "usages": ["Man gör i butiker, snatteri"],
+    "value": "Snatta"
+  },
+  {
+    "_id": { "$oid": "5d62ba097b54750052febf19" },
+    "createdDate": { "$date": "2019-08-25T16:40:41.835Z" },
+    "updatedDate": { "$date": "2019-08-25T16:40:41.835Z" },
+    "value": "Hälla salt på såret"
+  },
+  {
+    "_id": { "$oid": "5d62c1627b54750052febf1a" },
+    "createdDate": { "$date": "2019-08-25T17:12:02.047Z" },
+    "explanations": [""],
+    "translations": ["Pillar"],
+    "updatedDate": { "$date": "2019-08-25T17:12:02.047Z" },
+    "usages": [""],
+    "value": "Pelare"
+  },
+  {
+    "_id": { "$oid": "5d72e1707b54750052febf1b" },
+    "createdDate": { "$date": "2019-09-06T22:45:04.019Z" },
+    "explanations": [""],
+    "translations": ["Покинутый"],
+    "updatedDate": { "$date": "2019-09-06T22:45:04.019Z" },
+    "usages": [""],
+    "value": "Övergiven"
+  },
+  {
+    "_id": { "$oid": "5d820ee07b54750052febf1c" },
+    "createdDate": { "$date": "2019-09-18T11:02:56.117Z" },
+    "updatedDate": { "$date": "2019-09-18T11:02:56.117Z" },
+    "value": "Nipa av salt"
+  },
+  {
+    "_id": { "$oid": "5da05f2f7b54750052febf1d" },
+    "createdDate": { "$date": "2019-10-11T10:53:35.609Z" },
+    "updatedDate": { "$date": "2019-10-11T10:53:35.609Z" },
+    "value": "Levnadsförhållande"
+  },
+  {
+    "_id": { "$oid": "5da9a1ff7b54750052febf1e" },
+    "createdDate": { "$date": "2019-10-18T11:29:03.347Z" },
+    "explanations": ["Bära"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-10-18T11:29:03.347Z" },
+    "usages": [""],
+    "value": "Lugga"
+  },
+  {
+    "_id": { "$oid": "5db2d5e97b54750052febf1f" },
+    "createdDate": { "$date": "2019-10-25T11:00:57.014Z" },
+    "updatedDate": { "$date": "2019-10-25T11:00:57.014Z" },
+    "value": "Smakar apa"
+  },
+  {
+    "_id": { "$oid": "5db6b67d7b54750052febf20" },
+    "createdDate": { "$date": "2019-10-28T09:35:57.075Z" },
+    "updatedDate": { "$date": "2019-10-28T09:35:57.075Z" },
+    "value": "Fresta inte mig"
+  },
+  {
+    "_id": { "$oid": "5dbac0637b54750052febf21" },
+    "createdDate": { "$date": "2019-10-31T11:07:15.447Z" },
+    "updatedDate": { "$date": "2019-10-31T11:07:15.447Z" },
+    "value": "Blåsa skallen av sig"
+  },
+  {
+    "_id": { "$oid": "5dbff41d7b54750052febf22" },
+    "createdDate": { "$date": "2019-11-04T09:49:17.900Z" },
+    "explanations": ["Härja + stjäla "],
+    "translations": ["Plunder"],
+    "updatedDate": { "$date": "2019-11-04T09:49:17.900Z" },
+    "usages": [""],
+    "value": "Plundra"
+  },
+  {
+    "_id": { "$oid": "5dc011b47b54750052febf23" },
+    "createdDate": { "$date": "2019-11-04T11:55:32.425Z" },
+    "updatedDate": { "$date": "2019-11-04T11:55:32.425Z" },
+    "value": "Späda ut magsyran"
+  },
+  {
+    "_id": { "$oid": "5dc85ccd7b54750052febf24" },
+    "createdDate": { "$date": "2019-11-10T18:54:05.258Z" },
+    "explanations": [""],
+    "translations": ["Loaf"],
+    "updatedDate": { "$date": "2019-11-10T18:54:05.258Z" },
+    "usages": [""],
+    "value": "Limpa"
+  },
+  {
+    "_id": { "$oid": "5dc866627b54750052febf25" },
+    "createdDate": { "$date": "2019-11-10T19:34:58.408Z" },
+    "updatedDate": { "$date": "2019-11-10T19:34:58.408Z" },
+    "value": "Slurpa i sig "
+  },
+  {
+    "_id": { "$oid": "5dce9c247b54750052febf26" },
+    "createdDate": { "$date": "2019-11-15T12:37:56.845Z" },
+    "updatedDate": { "$date": "2019-11-15T12:37:56.845Z" },
+    "value": "Plåster som kommer ryckas av"
+  },
+  {
+    "_id": { "$oid": "5de11f9d7b54750052febf27" },
+    "createdDate": { "$date": "2019-11-29T13:39:41.439Z" },
+    "explanations": ["Trogen kund"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-11-29T13:39:41.439Z" },
+    "usages": ["Stamkund"],
+    "value": "Stammis"
+  },
+  {
+    "_id": { "$oid": "5de841b97b54750052febf28" },
+    "createdDate": { "$date": "2019-12-04T23:31:05.956Z" },
+    "explanations": [""],
+    "translations": ["Cross out"],
+    "updatedDate": { "$date": "2020-02-18T08:21:40.372Z" },
+    "usages": [""],
+    "value": "Överstryka"
+  },
+  {
+    "_id": { "$oid": "5df9fd077b54750052febf29" },
+    "createdDate": { "$date": "2019-12-18T10:18:47.278Z" },
+    "updatedDate": { "$date": "2019-12-18T10:18:47.278Z" },
+    "value": "Galge"
+  },
+  {
+    "_id": { "$oid": "5dfa355c7b54750052febf2a" },
+    "createdDate": { "$date": "2019-12-18T14:19:08.062Z" },
+    "explanations": [""],
+    "translations": ["Beak, клюв (fågel)"],
+    "updatedDate": { "$date": "2019-12-18T14:19:08.062Z" },
+    "usages": [""],
+    "value": "Näbb"
+  },
+  {
+    "_id": { "$oid": "5dfa35af7b54750052febf2b" },
+    "createdDate": { "$date": "2019-12-18T14:20:31.151Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-12-18T14:20:31.151Z" },
+    "usages": [""],
+    "value": "Kavla upp ärmarna"
+  },
+  {
+    "_id": { "$oid": "5dfca6657b54750052febf2c" },
+    "createdDate": { "$date": "2019-12-20T10:45:57.807Z" },
+    "explanations": ["Den som bor på landet"],
+    "translations": [""],
+    "updatedDate": { "$date": "2019-12-20T10:45:57.807Z" },
+    "usages": ["Förolampande"],
+    "value": "Lantis"
+  },
+  {
+    "_id": { "$oid": "5e09f2b07b54750052febf2d" },
+    "createdDate": { "$date": "2019-12-30T12:50:56.832Z" },
+    "updatedDate": { "$date": "2019-12-30T12:50:56.832Z" },
+    "value": "Degat sönder"
+  },
+  {
+    "_id": { "$oid": "5e10c8a57b54750052febf2e" },
+    "createdDate": { "$date": "2020-01-04T17:17:25.201Z" },
+    "explanations": [""],
+    "translations": ["Vomit"],
+    "updatedDate": { "$date": "2020-01-04T17:17:25.201Z" },
+    "usages": [""],
+    "value": "Lägga en pizza"
+  },
+  {
+    "_id": { "$oid": "5e1344b77b54750052febf2f" },
+    "createdDate": { "$date": "2020-01-06T14:31:19.238Z" },
+    "explanations": ["Trångt, mycket folk"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-01-06T14:31:19.238Z" },
+    "usages": [""],
+    "value": "Knökat"
+  },
+  {
+    "_id": { "$oid": "5e27144a7b54750052febf30" },
+    "createdDate": { "$date": "2020-01-21T15:10:02.733Z" },
+    "updatedDate": { "$date": "2020-01-21T15:10:02.733Z" },
+    "value": "Satans bananer"
+  },
+  {
+    "_id": { "$oid": "5e381afd7b54750052febf31" },
+    "createdDate": { "$date": "2020-02-03T13:07:09.510Z" },
+    "explanations": [""],
+    "translations": ["Equality "],
+    "updatedDate": { "$date": "2020-02-03T13:07:09.510Z" },
+    "usages": [""],
+    "value": "Jämställdhet"
+  },
+  {
+    "_id": { "$oid": "5e3937cf7b54750052febf32" },
+    "createdDate": { "$date": "2020-02-04T09:22:23.703Z" },
+    "explanations": [""],
+    "translations": ["Commitment "],
+    "updatedDate": { "$date": "2020-02-04T09:22:23.703Z" },
+    "usages": [""],
+    "value": "Åtagande"
+  },
+  {
+    "_id": { "$oid": "5e3d3d397b54750052febf33" },
+    "createdDate": { "$date": "2020-02-07T10:34:33.452Z" },
+    "explanations": [""],
+    "translations": ["Clutter"],
+    "updatedDate": { "$date": "2020-02-07T10:34:33.452Z" },
+    "usages": [""],
+    "value": "Belamra"
+  },
+  {
+    "_id": { "$oid": "5e46b8777b54750052febf34" },
+    "createdDate": { "$date": "2020-02-14T15:10:47.454Z" },
+    "explanations": ["Gnällig, svår att behaga"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-02-18T08:20:06.235Z" },
+    "usages": [""],
+    "value": "Kinkig"
+  },
+  {
+    "_id": { "$oid": "5e4a80737b54750052febf35" },
+    "createdDate": { "$date": "2020-02-17T12:00:51.901Z" },
+    "explanations": [""],
+    "translations": ["Cross functional"],
+    "updatedDate": { "$date": "2020-02-17T12:00:51.901Z" },
+    "usages": [""],
+    "value": "Tvärfunktionellt"
+  },
+  {
+    "_id": { "$oid": "5e4a80ba7b54750052febf36" },
+    "createdDate": { "$date": "2020-02-17T12:02:02.986Z" },
+    "explanations": [""],
+    "translations": ["Narrow"],
+    "updatedDate": { "$date": "2020-02-17T12:02:02.986Z" },
+    "usages": ["Man kan ett snävt område"],
+    "value": "Snäv"
+  },
+  {
+    "_id": { "$oid": "5e4b9d947b54750052febf37" },
+    "createdDate": { "$date": "2020-02-18T08:17:24.284Z" },
+    "explanations": ["Lätt att förstå"],
+    "translations": ["Transparent, clear"],
+    "updatedDate": { "$date": "2020-02-18T08:17:24.284Z" },
+    "usages": [""],
+    "value": "Överskådlig"
+  },
+  {
+    "_id": { "$oid": "5e4b9e277b54750052febf38" },
+    "createdDate": { "$date": "2020-02-18T08:19:51.521Z" },
+    "explanations": [""],
+    "translations": ["To please"],
+    "updatedDate": { "$date": "2020-02-18T08:19:51.521Z" },
+    "usages": [""],
+    "value": "Att behaga"
+  },
+  {
+    "_id": { "$oid": "5e4d1d937b54750052febf39" },
+    "createdDate": { "$date": "2020-02-19T11:35:47.364Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-02-19T11:35:47.364Z" },
+    "usages": [""],
+    "value": "Fett med lök"
+  },
+  {
+    "_id": { "$oid": "5e4d1e637b54750052febf3a" },
+    "createdDate": { "$date": "2020-02-19T11:39:15.772Z" },
+    "explanations": ["Lite jobbigt, segt"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-02-19T11:39:15.772Z" },
+    "usages": [""],
+    "value": "Töligt"
+  },
+  {
+    "_id": { "$oid": "5e5cf7197b54750052febf3b" },
+    "createdDate": { "$date": "2020-03-02T12:07:53.873Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-02T12:07:53.873Z" },
+    "usages": ["Hur står det till?"],
+    "value": "Det knallar och går"
+  },
+  {
+    "_id": { "$oid": "5e5fda4a7b54750052febf3c" },
+    "createdDate": { "$date": "2020-03-04T16:41:46.106Z" },
+    "explanations": ["Manipulera"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-04T16:41:46.106Z" },
+    "usages": ["Varje konsult fifflar med tidrapportering"],
+    "value": "Fiffla"
+  },
+  {
+    "_id": { "$oid": "5e62882e7b54750052febf3d" },
+    "createdDate": { "$date": "2020-03-06T17:28:14.393Z" },
+    "explanations": ["Slåss med polisen"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-06T17:28:14.393Z" },
+    "usages": [""],
+    "value": "Veva med bängen"
+  },
+  {
+    "_id": { "$oid": "5e6288517b54750052febf3e" },
+    "createdDate": { "$date": "2020-03-06T17:28:49.147Z" },
+    "explanations": ["Ut och slåss"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-04-17T15:43:34.770Z" },
+    "usages": [""],
+    "value": "Ut och veva "
+  },
+  {
+    "_id": { "$oid": "5e662cb77b54750052febf3f" },
+    "createdDate": { "$date": "2020-03-09T11:47:03.592Z" },
+    "explanations": ["Snuten, polisen, aina"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-09T11:47:03.592Z" },
+    "usages": [""],
+    "value": "Bängen"
+  },
+  {
+    "_id": { "$oid": "5e662d127b54750052febf40" },
+    "createdDate": { "$date": "2020-03-09T11:48:34.859Z" },
+    "explanations": ["Chilla, sitta hemma o vara äcklig"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-09T11:48:34.859Z" },
+    "usages": [""],
+    "value": "Att löka"
+  },
+  {
+    "_id": { "$oid": "5e662e077b54750052febf41" },
+    "createdDate": { "$date": "2020-03-09T11:52:39.343Z" },
+    "explanations": ["Spy inne på toaletten"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-09T11:52:39.343Z" },
+    "usages": [""],
+    "value": "Be till porsilnsguden"
+  },
+  {
+    "_id": { "$oid": "5e662e947b54750052febf42" },
+    "createdDate": { "$date": "2020-03-09T11:55:00.839Z" },
+    "explanations": ["Man håller i toasitsen och spyr"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-09T11:55:00.839Z" },
+    "usages": [""],
+    "value": "Köra gustafsbergsbussen"
+  },
+  {
+    "_id": { "$oid": "5e70cec17b54750052febf43" },
+    "createdDate": { "$date": "2020-03-17T13:21:05.599Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-17T13:21:05.599Z" },
+    "usages": [""],
+    "value": "Förutsättningslös lunch"
+  },
+  {
+    "_id": { "$oid": "5e7b50247b54750052febf44" },
+    "createdDate": { "$date": "2020-03-25T12:35:48.669Z" },
+    "explanations": ["Ta bort"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-25T12:35:48.669Z" },
+    "usages": [""],
+    "value": "Fimpa"
+  },
+  {
+    "_id": { "$oid": "5e7b50337b54750052febf45" },
+    "createdDate": { "$date": "2020-03-25T12:36:03.578Z" },
+    "explanations": ["Ren tur, oväntad tur"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-25T12:36:03.578Z" },
+    "usages": [""],
+    "value": "Ren flax"
+  },
+  {
+    "_id": { "$oid": "5e7b69457b54750052febf46" },
+    "createdDate": { "$date": "2020-03-25T14:23:01.962Z" },
+    "explanations": ["Tur"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-25T14:23:01.962Z" },
+    "usages": ["Fan vilken röta du har"],
+    "value": "Röta"
+  },
+  {
+    "_id": { "$oid": "5e7e80467b54750052febf47" },
+    "createdDate": { "$date": "2020-03-27T22:37:58.816Z" },
+    "explanations": ["Ge upp, dö"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-27T22:37:58.816Z" },
+    "usages": [""],
+    "value": "Kasta in handduken"
+  },
+  {
+    "_id": { "$oid": "5e7e83067b54750052febf48" },
+    "createdDate": { "$date": "2020-03-27T22:49:42.288Z" },
+    "explanations": ["Kola vippen, dö"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-03-27T22:49:42.288Z" },
+    "usages": [""],
+    "value": "Glida runt hörnet "
+  },
+  {
+    "_id": { "$oid": "5e94c1877b54750052febf49" },
+    "createdDate": { "$date": "2020-04-13T19:46:15.183Z" },
+    "explanations": ["Развлекаться, резвиться"],
+    "translations": ["Skoja"],
+    "updatedDate": { "$date": "2020-04-13T19:46:15.183Z" },
+    "usages": [""],
+    "value": "Lattja"
+  },
+  {
+    "_id": { "$oid": "5e94c7447b54750052febf4a" },
+    "createdDate": { "$date": "2020-04-13T20:10:44.771Z" },
+    "explanations": ["ute på landet "],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-04-13T20:10:44.771Z" },
+    "usages": [""],
+    "value": "ute på vischan"
+  },
+  {
+    "_id": { "$oid": "5e99ce827b54750052febf4b" },
+    "createdDate": { "$date": "2020-04-17T15:42:58.378Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-04-17T15:42:58.378Z" },
+    "usages": [""],
+    "value": "Beta av"
+  },
+  {
+    "_id": { "$oid": "5e9f28da7b54750052febf4c" },
+    "createdDate": { "$date": "2020-04-21T17:09:46.510Z" },
+    "explanations": [""],
+    "translations": ["Прищепка"],
+    "updatedDate": { "$date": "2020-04-21T17:09:46.510Z" },
+    "usages": [""],
+    "value": "Klädnypa"
+  },
+  {
+    "_id": { "$oid": "5eb2f6df7b54750052febf4d" },
+    "createdDate": { "$date": "2020-05-06T17:41:51.360Z" },
+    "explanations": [""],
+    "translations": ["Жить за чужой счет"],
+    "updatedDate": { "$date": "2020-05-06T17:41:51.360Z" },
+    "usages": [""],
+    "value": "Snylta"
+  },
+  {
+    "_id": { "$oid": "5ebd36917b54750052febf4e" },
+    "createdDate": { "$date": "2020-05-14T12:16:17.177Z" },
+    "explanations": [""],
+    "translations": ["Squirrel "],
+    "updatedDate": { "$date": "2020-05-14T12:16:17.177Z" },
+    "usages": [""],
+    "value": "Ekorre"
+  },
+  {
+    "_id": { "$oid": "5ebd37717b54750052febf4f" },
+    "createdDate": { "$date": "2020-05-14T12:20:01.966Z" },
+    "explanations": [""],
+    "translations": ["Ручей, ström"],
+    "updatedDate": { "$date": "2020-05-14T12:20:01.966Z" },
+    "usages": [""],
+    "value": "Bäck"
+  },
+  {
+    "_id": { "$oid": "5ec243247b54750052febf50" },
+    "createdDate": { "$date": "2020-05-18T08:11:16.224Z" },
+    "explanations": [""],
+    "translations": ["Outgoing"],
+    "updatedDate": { "$date": "2020-05-18T08:11:16.224Z" },
+    "usages": [""],
+    "value": "Utgående"
+  },
+  {
+    "_id": { "$oid": "5ed0eb237b54750052febf51" },
+    "createdDate": { "$date": "2020-05-29T10:59:47.546Z" },
+    "explanations": ["Sätt att äta och uppföra sig vid matbordet"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-05-29T11:02:32.333Z" },
+    "usages": [""],
+    "value": "Bordskick"
+  },
+  {
+    "_id": { "$oid": "5ed5061e7b54750052febf52" },
+    "createdDate": { "$date": "2020-06-01T13:43:58.226Z" },
+    "explanations": [""],
+    "translations": ["Abandon, leave behind"],
+    "updatedDate": { "$date": "2020-06-01T13:43:58.226Z" },
+    "usages": ["Överge en lösning"],
+    "value": "Överge"
+  },
+  {
+    "_id": { "$oid": "5ed61c9a7b54750052febf53" },
+    "createdDate": { "$date": "2020-06-02T09:32:10.352Z" },
+    "explanations": [""],
+    "translations": ["Clash"],
+    "updatedDate": { "$date": "2020-06-02T09:32:10.352Z" },
+    "usages": [""],
+    "value": "Krocka"
+  },
+  {
+    "_id": { "$oid": "5edf3b657b54750052febf54" },
+    "createdDate": { "$date": "2020-06-09T07:33:57.822Z" },
+    "explanations": ["Få rysningar"],
+    "translations": ["Мурашки по коже"],
+    "updatedDate": { "$date": "2020-06-09T07:33:57.822Z" },
+    "usages": [""],
+    "value": "Få gåshud"
+  },
+  {
+    "_id": { "$oid": "5ee0890a7b54750052febf55" },
+    "createdDate": { "$date": "2020-06-10T07:17:30.564Z" },
+    "explanations": ["Fundera, överväga"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-06-10T07:17:30.564Z" },
+    "usages": [""],
+    "value": "Grubbla över"
+  },
+  {
+    "_id": { "$oid": "5ee1119e7b54750052febf56" },
+    "createdDate": { "$date": "2020-06-10T17:00:14.565Z" },
+    "explanations": [""],
+    "translations": ["Stem"],
+    "updatedDate": { "$date": "2020-06-18T07:28:53.842Z" },
+    "usages": [""],
+    "value": "En stjälk"
+  },
+  {
+    "_id": { "$oid": "5ee8b1de7b54750052febf57" },
+    "createdDate": { "$date": "2020-06-16T11:49:50.710Z" },
+    "explanations": [""],
+    "translations": ["Gutter"],
+    "updatedDate": { "$date": "2020-06-16T11:49:50.710Z" },
+    "usages": [""],
+    "value": "Ränna"
+  },
+  {
+    "_id": { "$oid": "5ee90a747b54750052febf58" },
+    "createdDate": { "$date": "2020-06-16T18:07:48.027Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-06-16T18:07:48.027Z" },
+    "usages": ["Vad klyftigt av dig"],
+    "value": "Klyftig"
+  },
+  {
+    "_id": { "$oid": "5ee9c5f77b54750052febf5a" },
+    "createdDate": { "$date": "2020-06-17T07:27:51.614Z" },
+    "explanations": ["Strunta i"],
+    "translations": ["Discard, abolish"],
+    "updatedDate": { "$date": "2020-06-17T07:27:51.614Z" },
+    "usages": ["Slopad karensdag"],
+    "value": "Slopa"
+  },
+  {
+    "_id": { "$oid": "5eea59567b54750052febf5b" },
+    "createdDate": { "$date": "2020-06-17T17:56:38.817Z" },
+    "explanations": [""],
+    "translations": ["Hang in there"],
+    "updatedDate": { "$date": "2020-06-17T17:56:38.817Z" },
+    "usages": [""],
+    "value": "Håll ut!"
+  },
+  {
+    "_id": { "$oid": "5eeb163a7b54750052febf5c" },
+    "createdDate": { "$date": "2020-06-18T07:22:34.058Z" },
+    "explanations": [""],
+    "translations": ["Abolish, revoke"],
+    "updatedDate": { "$date": "2020-06-18T07:22:34.058Z" },
+    "usages": [""],
+    "value": "Avskaffa"
+  },
+  {
+    "_id": { "$oid": "5eeb37a97b54750052febf5d" },
+    "createdDate": { "$date": "2020-06-18T09:45:13.844Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-06-18T09:45:13.844Z" },
+    "usages": [""],
+    "value": "Du blir ägd"
+  },
+  {
+    "_id": { "$oid": "5eeb72637b54750052febf5e" },
+    "createdDate": { "$date": "2020-06-18T13:55:47.890Z" },
+    "explanations": ["Witty"],
+    "translations": ["Klipskt "],
+    "updatedDate": { "$date": "2020-06-18T13:55:47.890Z" },
+    "usages": ["Det var slugt av dig"],
+    "value": "Slug"
+  },
+  {
+    "_id": { "$oid": "5eee0b997b54750052febf5f" },
+    "createdDate": { "$date": "2020-06-20T13:14:01.183Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-06-20T13:14:01.183Z" },
+    "usages": [""],
+    "value": "Få sin vilja fram"
+  },
+  {
+    "_id": { "$oid": "5eee103a7b54750052febf60" },
+    "createdDate": { "$date": "2020-06-20T13:33:46.613Z" },
+    "explanations": [""],
+    "translations": ["Повысить тон"],
+    "updatedDate": { "$date": "2020-06-20T13:33:46.613Z" },
+    "usages": ["Ta i på skarpen"],
+    "value": "Säga till på skarpen"
+  },
+  {
+    "_id": { "$oid": "5eee10fd7b54750052febf61" },
+    "createdDate": { "$date": "2020-06-20T13:37:01.596Z" },
+    "explanations": [""],
+    "translations": ["Переполох"],
+    "updatedDate": { "$date": "2020-06-20T13:37:01.596Z" },
+    "usages": [""],
+    "value": "Uppståndelse"
+  },
+  {
+    "_id": { "$oid": "5ef086717b54750052febf62" },
+    "createdDate": { "$date": "2020-06-22T10:22:41.047Z" },
+    "updatedDate": { "$date": "2020-06-22T10:22:41.047Z" },
+    "value": "Såga inte av grenen du sitter på"
+  },
+  {
+    "_id": { "$oid": "5ef4d92a7b54750052febf63" },
+    "createdDate": { "$date": "2020-06-25T17:04:42.703Z" },
+    "updatedDate": { "$date": "2020-06-25T17:04:42.703Z" },
+    "value": "Snordyr"
+  },
+  {
+    "_id": { "$oid": "5ef76bdf7b54750052febf64" },
+    "createdDate": { "$date": "2020-06-27T15:55:11.482Z" },
+    "explanations": [""],
+    "translations": ["Чокнутый"],
+    "updatedDate": { "$date": "2020-06-27T15:55:11.482Z" },
+    "usages": [""],
+    "value": "Rubbad"
+  },
+  {
+    "_id": { "$oid": "5efa1c347b54750052febf65" },
+    "createdDate": { "$date": "2020-06-29T16:52:04.757Z" },
+    "explanations": [""],
+    "translations": ["Ansiktet, nyllet"],
+    "updatedDate": { "$date": "2020-06-29T16:52:04.757Z" },
+    "usages": [""],
+    "value": "Fejjan"
+  },
+  {
+    "_id": { "$oid": "5efa1f997b54750052febf66" },
+    "createdDate": { "$date": "2020-06-29T17:06:33.847Z" },
+    "explanations": [""],
+    "translations": ["Spöa, slå ner, nita"],
+    "updatedDate": { "$date": "2020-06-29T17:06:33.847Z" },
+    "usages": [""],
+    "value": "Klå ner"
+  },
+  {
+    "_id": { "$oid": "5efbbde27b54750052febf67" },
+    "createdDate": { "$date": "2020-06-30T22:34:10.667Z" },
+    "explanations": [""],
+    "translations": ["Stå ut med, переносить"],
+    "updatedDate": { "$date": "2020-06-30T22:34:10.667Z" },
+    "usages": ["Om kylan eller mörkret"],
+    "value": "Uthärda"
+  },
+  {
+    "_id": { "$oid": "5efc3bb27b54750052febf68" },
+    "createdDate": { "$date": "2020-07-01T07:30:58.362Z" },
+    "explanations": [""],
+    "translations": ["Luffare, бомж"],
+    "updatedDate": { "$date": "2020-07-01T07:30:58.362Z" },
+    "usages": [""],
+    "value": "Lodis"
+  },
+  {
+    "_id": { "$oid": "5eff975e7b54750052febf69" },
+    "createdDate": { "$date": "2020-07-03T20:38:54.627Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-07-03T20:38:54.627Z" },
+    "usages": [""],
+    "value": "Lättis plättis citronis klämmis"
+  },
+  {
+    "_id": { "$oid": "5f0771f37b54750052febf6a" },
+    "createdDate": { "$date": "2020-07-09T19:37:23.788Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-07-09T19:37:23.788Z" },
+    "usages": [""],
+    "value": "Göra höna av en fjäder"
+  },
+  {
+    "_id": { "$oid": "5f078a787b54750052febf6b" },
+    "createdDate": { "$date": "2020-07-09T21:22:00.692Z" },
+    "explanations": ["I am not buying it"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-07-09T21:22:00.692Z" },
+    "usages": [""],
+    "value": "Den gubben går jag inte på"
+  },
+  {
+    "_id": { "$oid": "5f078bad7b54750052febf6c" },
+    "createdDate": { "$date": "2020-07-09T21:27:09.869Z" },
+    "explanations": ["Uttryck av förvåning"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-07-09T21:27:55.171Z" },
+    "usages": ["Seriously? I dont beleive it ..."],
+    "value": "Dra mig baklänges"
+  },
+  {
+    "_id": { "$oid": "5f0b09797b54750052febf6d" },
+    "createdDate": { "$date": "2020-07-12T13:00:41.242Z" },
+    "explanations": ["Dricka så mycket att man svimmat"],
+    "translations": ["Supa sig redlös"],
+    "updatedDate": { "$date": "2020-07-12T13:01:23.217Z" },
+    "usages": [""],
+    "value": "Supa skallen av sig"
+  },
+  {
+    "_id": { "$oid": "5f0b330d7b54750052febf6e" },
+    "createdDate": { "$date": "2020-07-12T15:58:05.619Z" },
+    "explanations": ["Slockna"],
+    "translations": ["Pass out"],
+    "updatedDate": { "$date": "2020-07-12T15:58:05.619Z" },
+    "usages": [""],
+    "value": "Däcka"
+  },
+  {
+    "_id": { "$oid": "5f0e34e17b54750052febf6f" },
+    "createdDate": { "$date": "2020-07-14T22:42:41.443Z" },
+    "explanations": [""],
+    "translations": ["Dozy, sömnig"],
+    "updatedDate": { "$date": "2020-07-14T22:42:41.443Z" },
+    "usages": [""],
+    "value": "Dåsig"
+  },
+  {
+    "_id": { "$oid": "5f145c4e7b54750052febf70" },
+    "createdDate": { "$date": "2020-07-19T14:44:30.915Z" },
+    "explanations": [""],
+    "translations": ["Nature, personality"],
+    "updatedDate": { "$date": "2020-07-19T14:44:30.915Z" },
+    "usages": ["Mitt väsen"],
+    "value": "Väsen"
+  },
+  {
+    "_id": { "$oid": "5f176e217b54750052febf71" },
+    "createdDate": { "$date": "2020-07-21T22:37:21.245Z" },
+    "explanations": [""],
+    "translations": ["Спотыкаться об"],
+    "updatedDate": { "$date": "2020-07-21T22:37:21.245Z" },
+    "usages": [""],
+    "value": "Snava på något"
+  },
+  {
+    "_id": { "$oid": "5f1d6d657b54750052febf72" },
+    "createdDate": { "$date": "2020-07-26T11:47:49.230Z" },
+    "explanations": ["Ta någon på skämt, håna"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-08-03T09:58:12.876Z" },
+    "usages": [""],
+    "value": "Göra narr av någon"
+  },
+  {
+    "_id": { "$oid": "5f27dfc97b54750052febf73" },
+    "createdDate": { "$date": "2020-08-03T09:58:33.131Z" },
+    "explanations": [""],
+    "translations": ["Rulla på"],
+    "updatedDate": { "$date": "2020-08-03T09:58:33.131Z" },
+    "usages": ["Det brummar på"],
+    "value": "Brumma på"
+  },
+  {
+    "_id": { "$oid": "5f34e8f57b54750052febf75" },
+    "createdDate": { "$date": "2020-08-13T07:17:09.093Z" },
+    "explanations": [""],
+    "translations": ["Sneaky, коварный"],
+    "updatedDate": { "$date": "2020-08-13T07:17:09.093Z" },
+    "usages": [""],
+    "value": "Lömsk"
+  },
+  {
+    "_id": { "$oid": "5f3995697b54750052febf76" },
+    "createdDate": { "$date": "2020-08-16T20:22:01.494Z" },
+    "explanations": [""],
+    "translations": ["Zipper on jeans"],
+    "updatedDate": { "$date": "2020-08-16T20:22:47.041Z" },
+    "usages": ["Korvkiosken/fiskbutiken är öppen"],
+    "value": "Gylf"
+  },
+  {
+    "_id": { "$oid": "5f3ae75d7b54750052febf77" },
+    "createdDate": { "$date": "2020-08-17T20:23:57.030Z" },
+    "explanations": [""],
+    "translations": ["Брызгать"],
+    "updatedDate": { "$date": "2020-08-17T20:23:57.030Z" },
+    "usages": ["Du stänkte vatten på mig!"],
+    "value": "Stänka"
+  },
+  {
+    "_id": { "$oid": "5f3fae717b54750052febf78" },
+    "createdDate": { "$date": "2020-08-21T11:22:25.749Z" },
+    "explanations": ["Vila ut efter en utmattande aktivitet"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-08-21T11:22:25.749Z" },
+    "usages": [""],
+    "value": "Pusta ut"
+  },
+  {
+    "_id": { "$oid": "5f4fa2fc7b54750052febf79" },
+    "createdDate": { "$date": "2020-09-02T13:49:48.062Z" },
+    "explanations": ["Greja"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-09-02T13:49:48.062Z" },
+    "usages": [""],
+    "value": "Jiddra"
+  },
+  {
+    "_id": { "$oid": "5f5f6d1d7b54750052febf7a" },
+    "createdDate": { "$date": "2020-09-14T13:16:13.740Z" },
+    "explanations": ["Underkänt prov"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-09-14T13:38:26.768Z" },
+    "usages": ["Kugga uppkörnkng eller tentan"],
+    "value": "Kuggning"
+  },
+  {
+    "_id": { "$oid": "5f688e947b54750052febf7b" },
+    "createdDate": { "$date": "2020-09-21T11:29:24.016Z" },
+    "explanations": ["Strunt, nonsens"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-09-21T11:29:24.016Z" },
+    "usages": [""],
+    "value": "Trams"
+  },
+  {
+    "_id": { "$oid": "5f6b17b37b54750052febf7c" },
+    "createdDate": { "$date": "2020-09-23T09:38:59.467Z" },
+    "explanations": [""],
+    "translations": ["Gain approval for"],
+    "updatedDate": { "$date": "2020-09-23T09:38:59.467Z" },
+    "usages": [""],
+    "value": "Förankra"
+  },
+  {
+    "_id": { "$oid": "5f6b1cc27b54750052febf7d" },
+    "createdDate": { "$date": "2020-09-23T10:00:34.205Z" },
+    "explanations": [""],
+    "translations": ["Adopt, accept"],
+    "updatedDate": { "$date": "2020-09-23T10:00:34.205Z" },
+    "usages": [""],
+    "value": "Anamma"
+  },
+  {
+    "_id": { "$oid": "5f7af2507b54750052febf7e" },
+    "createdDate": { "$date": "2020-10-05T10:15:44.494Z" },
+    "updatedDate": { "$date": "2020-10-05T10:15:52.421Z" },
+    "value": "Pannben",
+    "translations": ["Mind "]
+  },
+  {
+    "_id": { "$oid": "5f80648b7b54750052febf7f" },
+    "createdDate": { "$date": "2020-10-09T13:24:27.541Z" },
+    "explanations": [""],
+    "translations": ["Snaps"],
+    "updatedDate": { "$date": "2020-10-09T13:24:27.541Z" },
+    "usages": [""],
+    "value": "Nubbe"
+  },
+  {
+    "_id": { "$oid": "5f80d4a17b54750052febf80" },
+    "createdDate": { "$date": "2020-10-09T21:22:41.411Z" },
+    "explanations": ["Motsatser"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-10-09T21:22:41.411Z" },
+    "usages": [""],
+    "value": "Yoinka - yeeta"
+  },
+  {
+    "_id": { "$oid": "5f9014b97b54750052febf81" },
+    "createdDate": { "$date": "2020-10-21T11:00:09.559Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-10-21T11:00:09.559Z" },
+    "usages": [""],
+    "value": "Hoppsan kerstin"
+  },
+  {
+    "_id": { "$oid": "5f9014da7b54750052febf82" },
+    "createdDate": { "$date": "2020-10-21T11:00:42.315Z" },
+    "explanations": ["Stirra, glo"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-10-21T11:00:42.315Z" },
+    "usages": [""],
+    "value": "Blänga"
+  },
+  {
+    "_id": { "$oid": "5f91d6337b54750052febf83" },
+    "createdDate": { "$date": "2020-10-22T18:57:55.727Z" },
+    "explanations": [""],
+    "translations": ["Scratch "],
+    "updatedDate": { "$date": "2020-10-22T18:57:55.727Z" },
+    "usages": [""],
+    "value": "Skråma"
+  },
+  {
+    "_id": { "$oid": "5fa270e77b54750052febf84" },
+    "createdDate": { "$date": "2020-11-04T09:14:15.690Z" },
+    "updatedDate": { "$date": "2020-11-04T09:14:15.690Z" },
+    "value": "Grotta ned sig i koden"
+  },
+  {
+    "_id": { "$oid": "5fa7b85b7b54750052febf85" },
+    "createdDate": { "$date": "2020-11-08T09:20:27.945Z" },
+    "explanations": ["Bli irriterad på det"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-11-08T09:20:27.945Z" },
+    "usages": [""],
+    "value": "Reta sig på någon/något"
+  },
+  {
+    "_id": { "$oid": "5fafe1897b54750052febf86" },
+    "createdDate": { "$date": "2020-11-14T13:54:17.582Z" },
+    "explanations": ["Vad är haken? Nackdel"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-11-14T13:54:17.582Z" },
+    "usages": [""],
+    "value": "Hake"
+  },
+  {
+    "_id": { "$oid": "5fbe8b957b54750052febf87" },
+    "createdDate": { "$date": "2020-11-25T16:51:33.082Z" },
+    "explanations": [""],
+    "translations": ["Säckkärra"],
+    "updatedDate": { "$date": "2020-11-25T16:51:33.082Z" },
+    "usages": [""],
+    "value": "Pirra"
+  },
+  {
+    "_id": { "$oid": "5fd7d5717b54750052febf88" },
+    "createdDate": { "$date": "2020-12-14T21:13:21.607Z" },
+    "explanations": ["Lata sig, vara onyttig"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-12-14T21:13:21.607Z" },
+    "usages": [""],
+    "value": "Slå dank"
+  },
+  {
+    "_id": { "$oid": "5fe606267b54750052febf89" },
+    "createdDate": { "$date": "2020-12-25T15:32:54.383Z" },
+    "explanations": ["Snoka, lägga/sticka näsan i"],
+    "translations": [""],
+    "updatedDate": { "$date": "2020-12-25T15:33:44.502Z" },
+    "usages": ["Det ska du inte lägga dig i!"],
+    "value": "Lägga i sig"
+  },
+  {
+    "_id": { "$oid": "600185d37b54750052febf8a" },
+    "createdDate": { "$date": "2021-01-15T12:08:51.590Z" },
+    "explanations": [""],
+    "translations": ["Преимущество"],
+    "updatedDate": { "$date": "2021-01-15T12:08:51.590Z" },
+    "usages": [""],
+    "value": "Övertag"
+  },
+  {
+    "_id": { "$oid": "600dca827b54750052febf8b" },
+    "createdDate": { "$date": "2021-01-24T19:29:06.995Z" },
+    "updatedDate": { "$date": "2021-01-24T19:29:06.995Z" },
+    "value": "Härmis"
+  },
+  {
+    "_id": { "$oid": "600dd6c17b54750052febf8c" },
+    "createdDate": { "$date": "2021-01-24T20:21:21.367Z" },
+    "explanations": [""],
+    "translations": ["Отвергать"],
+    "updatedDate": { "$date": "2021-01-24T20:21:21.367Z" },
+    "usages": [""],
+    "value": "Förkasta"
+  },
+  {
+    "_id": { "$oid": "600dd7067b54750052febf8d" },
+    "createdDate": { "$date": "2021-01-24T20:22:30.316Z" },
+    "explanations": [""],
+    "translations": ["Превзойти, ”ломать”"],
+    "updatedDate": { "$date": "2021-01-24T20:22:38.433Z" },
+    "usages": ["Han ville bräcka mig med sin nya bil"],
+    "value": "Bräcka"
+  },
+  {
+    "_id": { "$oid": "6011c9527b54750052febf8e" },
+    "createdDate": { "$date": "2021-01-27T20:13:06.215Z" },
+    "explanations": [""],
+    "translations": ["Сдвигать, нарушать"],
+    "updatedDate": { "$date": "2021-01-27T20:13:06.215Z" },
+    "usages": ["Uppfattning som inte går att rubba"],
+    "value": "Rubba"
+  },
+  {
+    "_id": { "$oid": "6022797c7b54750052febf8f" },
+    "createdDate": { "$date": "2021-02-09T12:01:00.780Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2021-02-09T12:01:00.780Z" },
+    "usages": [""],
+    "value": "Gegga in info i någons huvud"
+  },
+  {
+    "_id": { "$oid": "602581877b54750052febf90" },
+    "createdDate": { "$date": "2021-02-11T19:12:07.748Z" },
+    "explanations": [""],
+    "translations": ["Frowned upon"],
+    "updatedDate": { "$date": "2021-02-11T19:12:07.748Z" },
+    "usages": [""],
+    "value": "Rynka på näsan "
+  },
+  {
+    "_id": { "$oid": "603019727b54750052febf91" },
+    "createdDate": { "$date": "2021-02-19T20:02:58.021Z" },
+    "explanations": [""],
+    "translations": ["Навязывать"],
+    "updatedDate": { "$date": "2021-02-19T20:02:58.021Z" },
+    "usages": [""],
+    "value": "Pracka på"
+  },
+  {
+    "_id": { "$oid": "60434e487b54750052febf92" },
+    "createdDate": { "$date": "2021-03-06T09:41:28.402Z" },
+    "explanations": [""],
+    "translations": ["Навязчивый"],
+    "updatedDate": { "$date": "2021-03-06T09:41:28.402Z" },
+    "usages": [""],
+    "value": "Efterhängsen"
+  },
+  {
+    "_id": { "$oid": "604a17f87b54750052febf93" },
+    "createdDate": { "$date": "2021-03-11T13:15:36.246Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2021-03-11T13:15:36.246Z" },
+    "usages": [""],
+    "value": "Jobba röven av sig"
+  },
+  {
+    "_id": { "$oid": "604a74817b54750052febf94" },
+    "createdDate": { "$date": "2021-03-11T19:50:25.446Z" },
+    "updatedDate": { "$date": "2021-03-11T19:50:25.446Z" },
+    "value": "Göra stort intryck på mig"
+  },
+  {
+    "_id": { "$oid": "6072ece17b54750052febf95" },
+    "createdDate": { "$date": "2021-04-11T12:34:41.699Z" },
+    "explanations": [""],
+    "translations": ["Defy the laws of physics"],
+    "updatedDate": { "$date": "2021-07-11T22:22:09.502Z" },
+    "usages": [""],
+    "value": "Trotsa fysikens lagar"
+  },
+  {
+    "_id": { "$oid": "6087f4987b54750052febf96" },
+    "createdDate": { "$date": "2021-04-27T11:25:12.625Z" },
+    "updatedDate": { "$date": "2021-07-11T22:21:54.980Z" },
+    "value": "Ranglig stol",
+    "explanations": ["Svajig"],
+    "translations": ["Unstable"]
+  },
+  {
+    "_id": { "$oid": "60eb6ed62990b80052cdaadd" },
+    "createdDate": { "$date": "2021-07-11T22:21:10.695Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2021-07-11T22:21:10.695Z" },
+    "usages": ["Krispig bacon 🥒 🥓"],
+    "value": "Knaprig gurka"
+  },
+  {
+    "_id": { "$oid": "60eb6f3a2990b80052cdaade" },
+    "createdDate": { "$date": "2021-07-11T22:22:50.276Z" },
+    "explanations": [""],
+    "translations": ["Justify own existence"],
+    "updatedDate": { "$date": "2021-07-11T22:22:50.276Z" },
+    "usages": [""],
+    "value": "Rättfärdiga sin existens"
+  },
+  {
+    "_id": { "$oid": "60eb6f8c2990b80052cdaadf" },
+    "createdDate": { "$date": "2021-07-11T22:24:12.391Z" },
+    "explanations": [""],
+    "translations": ["Exfoliate, шелушится"],
+    "updatedDate": { "$date": "2021-07-11T22:24:12.391Z" },
+    "usages": ["Axeln har börjat fjälla"],
+    "value": "Fjälla"
+  },
+  {
+    "_id": { "$oid": "60eb6fe82990b80052cdaae0" },
+    "createdDate": { "$date": "2021-07-11T22:25:44.775Z" },
+    "explanations": [""],
+    "translations": ["Dispel the myth"],
+    "updatedDate": { "$date": "2021-07-11T22:25:44.775Z" },
+    "usages": [""],
+    "value": "Avfärda myten"
+  },
+  {
+    "_id": { "$oid": "60eb70162990b80052cdaae1" },
+    "createdDate": { "$date": "2021-07-11T22:26:30.443Z" },
+    "explanations": [""],
+    "translations": ["Squeak"],
+    "updatedDate": { "$date": "2021-07-11T22:26:30.443Z" },
+    "usages": ["Knarrade skor"],
+    "value": "Knarra"
+  },
+  {
+    "_id": { "$oid": "60eeb9022990b80052cdaae2" },
+    "createdDate": { "$date": "2021-07-14T10:14:26.577Z" },
+    "explanations": [""],
+    "translations": ["Doubtful"],
+    "updatedDate": { "$date": "2021-07-14T10:14:26.577Z" },
+    "usages": ["Svenska är lite velig "],
+    "value": "Velig"
+  },
+  {
+    "_id": { "$oid": "60f4a32a2990b80052cdaae3" },
+    "createdDate": { "$date": "2021-07-18T21:54:50.886Z" },
+    "explanations": ["Hycklad/spelad sorg"],
+    "translations": ["Притворная грусть"],
+    "updatedDate": { "$date": "2021-07-18T21:54:50.886Z" },
+    "usages": [""],
+    "value": "Krokodiltårar"
+  },
+  {
+    "_id": { "$oid": "60f9a6f22990b80052cdaae4" },
+    "createdDate": { "$date": "2021-07-22T17:12:18.440Z" },
+    "explanations": [""],
+    "translations": ["Торговаться"],
+    "updatedDate": { "$date": "2021-07-22T17:12:18.440Z" },
+    "usages": [""],
+    "value": "Pruta"
+  },
+  {
+    "_id": { "$oid": "60f9b3ee2990b80052cdaae5" },
+    "createdDate": { "$date": "2021-07-22T18:07:42.195Z" },
+    "explanations": [""],
+    "translations": ["Хлам"],
+    "updatedDate": { "$date": "2021-07-22T18:07:42.195Z" },
+    "usages": [""],
+    "value": "Bråte"
+  },
+  {
+    "_id": { "$oid": "60fff4192990b80052cdaae6" },
+    "createdDate": { "$date": "2021-07-27T11:55:05.206Z" },
+    "explanations": ["Rädd"],
+    "translations": [""],
+    "updatedDate": { "$date": "2021-07-27T11:55:05.206Z" },
+    "usages": [""],
+    "value": "Skraj"
+  },
+  {
+    "_id": { "$oid": "6118d30a44fd97004880f987" },
+    "createdDate": { "$date": "2021-08-15T08:40:42.191Z" },
+    "explanations": [""],
+    "translations": ["Шуршать"],
+    "updatedDate": { "$date": "2021-08-15T08:40:42.191Z" },
+    "usages": ["Ett frasande av en klänning "],
+    "value": "Frasa"
+  },
+  {
+    "_id": { "$oid": "611a149e44fd97004880f988" },
+    "createdDate": { "$date": "2021-08-16T07:32:46.858Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2021-08-16T07:32:46.858Z" },
+    "usages": [""],
+    "value": "Belägenhet"
+  },
+  {
+    "_id": { "$oid": "611b84b344fd97004880f989" },
+    "createdDate": { "$date": "2021-08-17T09:43:15.619Z" },
+    "explanations": ["Strunt, skräp"],
+    "translations": ["Чепуха"],
+    "updatedDate": { "$date": "2021-08-17T09:43:15.619Z" },
+    "usages": ["Jag pratar smörja"],
+    "value": "Smörja"
+  },
+  {
+    "_id": { "$oid": "6120c81644fd97004880f98a" },
+    "createdDate": { "$date": "2021-08-21T09:32:06.192Z" },
+    "explanations": [""],
+    "translations": [""],
+    "updatedDate": { "$date": "2021-08-21T09:32:06.192Z" },
+    "usages": ["Utgjuta sina känslor, utgjuta blod"],
+    "value": "Utgjuta"
+  },
+  {
+    "_id": { "$oid": "6128e2cc44fd97004880f98b" },
+    "createdDate": { "$date": "2021-08-27T13:04:12.458Z" },
+    "updatedDate": { "$date": "2021-08-27T13:04:33.886Z" },
+    "value": "Fräsigt",
+    "explanations": ["Coolt, men inte like coolt som fräckt"]
+  },
+  {
+    "_id": { "$oid": "6131f41744fd97004880f98c" },
+    "createdDate": { "$date": "2021-09-03T10:08:23.526Z" },
+    "explanations": ["Sova"],
+    "translations": ["Crash"],
+    "updatedDate": { "$date": "2021-09-03T10:08:23.526Z" },
+    "usages": ["Slagga hos mina föräldrar"],
+    "value": "Slagga"
+  }
+]
