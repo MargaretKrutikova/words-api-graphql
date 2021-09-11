@@ -2,6 +2,14 @@ variable "region" {
   default = "Switzerland North"
 }
 
+variable "db_name" {
+  default = "WordsDbTf"
+}
+
+variable "collection_name" {
+  default = "WordsCollection"
+}
+
 # providers
 terraform {
   required_providers {
@@ -21,15 +29,55 @@ resource "azurerm_resource_group" "wordsapp" {
   location = var.region
 }
 
-# resource "azurerm_cosmosdb_account" "cosmosaccount" {
-#   name     = "tfcosmosaccount"
-#   location = azurerm_resource_group.wordsapp.location
-#   capabilities {
-#     name = "EnableServerless"
-#   }
-#   offer_type       = "Standard"
-#   enable_free_tier = true
-# }
+resource "azurerm_cosmosdb_account" "cosmosaccount" {
+  name                 = "tfcosmosaccount"
+  location             = azurerm_resource_group.wordsapp.location
+  resource_group_name  = azurerm_resource_group.wordsapp.name
+  kind                 = "MongoDB"
+  mongo_server_version = "4.0"
+
+  consistency_policy {
+    consistency_level = "Session"
+  }
+
+  capabilities {
+    name = "EnableServerless"
+  }
+
+  capabilities {
+    name = "EnableMongo"
+  }
+
+  geo_location {
+    location          = azurerm_resource_group.wordsapp.location
+    failover_priority = 0
+  }
+
+  offer_type = "Standard"
+  # enable_free_tier = true
+}
+
+resource "azurerm_cosmosdb_mongo_database" "cosmosdb" {
+  name                = var.db_name
+  resource_group_name = azurerm_resource_group.wordsapp.name
+  account_name        = azurerm_cosmosdb_account.cosmosaccount.name
+}
+
+output "cosmosdb_connectionstrings" {
+  value     = azurerm_cosmosdb_account.cosmosaccount.connection_strings
+  sensitive = true
+}
+
+resource "azurerm_cosmosdb_mongo_collection" "cosmoscollection" {
+  name                = var.collection_name
+  resource_group_name = azurerm_resource_group.wordsapp.name
+  account_name        = azurerm_cosmosdb_account.cosmosaccount.name
+  database_name       = azurerm_cosmosdb_mongo_database.cosmosdb.name
+  default_ttl_seconds = 777
+  index {
+    keys = ["createdDate"]
+  }
+}
 
 resource "azurerm_app_service_plan" "wordsapp" {
   name                = "wordsapi-plan"
@@ -51,11 +99,11 @@ resource "azurerm_app_service" "wordsapp" {
   app_service_plan_id = azurerm_app_service_plan.wordsapp.id
 
   app_settings = {
-    # "WEBSITE_NODE_DEFAULT_VERSION" = "12.13.0"
     "DeployDate"            = timestamp()
     "AppVersion"            = "localdeploy"
-    "MONGO_DB_NAME"         = "WordsDb"
-    "MONGO_COLLECTION_NAME" = "words_localtest"
+    "MONGO_URL"             = azurerm_cosmosdb_account.cosmosaccount.connection_strings[0]
+    "MONGO_DB_NAME"         = var.db_name
+    "MONGO_COLLECTION_NAME" = var.collection_name
   }
 
   site_config {
