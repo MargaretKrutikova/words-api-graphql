@@ -83,6 +83,10 @@ resource "azurerm_cosmosdb_mongo_collection" "cosmoscollection" {
   index {
     keys = ["createdDate"]
   }
+  index {
+    keys   = ["_id"]
+    unique = true
+  }
 }
 
 resource "azurerm_app_service_plan" "wordsapp" {
