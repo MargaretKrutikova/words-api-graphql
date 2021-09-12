@@ -1,9 +1,11 @@
 terraform plan --out=main.tfplan
 terraform apply main.tfplan
 
-# cd ../../src
-# npm run build
-# zip -r ../deploy/terraform/build.zip *
-# cd ../deploy/terraform
+cd ../../src
+npm run build
+zip -r ../deploy/terraform/build.zip *
+cd ../deploy/terraform
 
 az webapp deploy --resource-group "WordsGroup" --name "wordsapitf" --src-path ./build.zip
+
+# az cosmosdb update --name tfcosmosaccount --resource-group "WordsGroup" --locations regionName=switzerlandnorth failoverPriority=0 isZoneRedundant=False

@@ -53,6 +53,12 @@ resource "azurerm_cosmosdb_account" "cosmosaccount" {
     failover_priority = 0
   }
 
+  backup {
+    type                = "Periodic"
+    interval_in_minutes = 1440
+    retention_in_hours  = 48
+  }
+
   offer_type = "Standard"
   # enable_free_tier = true
 }
