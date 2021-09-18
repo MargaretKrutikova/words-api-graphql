@@ -79,7 +79,6 @@ resource "azurerm_cosmosdb_mongo_collection" "cosmoscollection" {
   resource_group_name = azurerm_resource_group.wordsapp.name
   account_name        = azurerm_cosmosdb_account.cosmosaccount.name
   database_name       = azurerm_cosmosdb_mongo_database.cosmosdb.name
-  default_ttl_seconds = 777
   index {
     keys = ["createdDate"]
   }
