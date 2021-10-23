@@ -35,7 +35,7 @@ export default {
   args: {
     input: { type: new GraphQLNonNull(WordInputType) },
   },
-  resolve: (_: any, { input }: any, { mPool }: any) => {
-    return mongoDb(mPool).deleteWord(input.id);
+  resolve: (_: any, { input }: any, { mPool, dbName, collectionName }: any) => {
+    return mongoDb(mPool, dbName, collectionName).deleteWord(input.id);
   },
 };

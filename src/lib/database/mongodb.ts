@@ -22,9 +22,13 @@ type MongoDbService = {
   saveWord: (word: WordMutationModel) => Promise<ApiWordEntity | undefined>;
 };
 
-export default (mPool: MongoClient): MongoDbService => {
+export default (
+  mPool: MongoClient,
+  dbName: string,
+  collectionName: string
+): MongoDbService => {
   const getWordsCollection = () =>
-    mPool.db().collection<ApiWordEntity>("words");
+    mPool.db(dbName).collection<ApiWordEntity>(collectionName);
 
   return {
     getWord: (wordId: ObjectId) =>
@@ -69,12 +73,32 @@ export default (mPool: MongoClient): MongoDbService => {
 
     saveWord: async (word: WordMutationModel) => {
       const date = new Date();
-      const { id, ...fieldsToSave } = word;
+
+      const {
+        id,
+        createdDate: createdDateString,
+        updatedDate: updatedDateString,
+        ...fieldsToSave
+      } = word;
+
+      const getCreatedDateIfNew = () => (!id ? date : undefined);
+
+      const createdDate = createdDateString
+        ? new Date(createdDateString)
+        : getCreatedDateIfNew();
+
+      const updatedDate = updatedDateString
+        ? new Date(updatedDateString)
+        : date;
 
       const { fieldsToSet, fieldsToUnset } = getReplacementFields(fieldsToSave);
 
-      const setCreated = !id ? { createdDate: date } : {};
-      const setUpdated = { updatedDate: date };
+      const setCreated = createdDate
+        ? { createdDate: new Date(createdDate) }
+        : {};
+      const setUpdated = updatedDate
+        ? { updatedDate: new Date(updatedDate) }
+        : {};
 
       // if $unset is an empty object, mongo will throw an exception.
       const unsetObj =

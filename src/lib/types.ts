@@ -17,6 +17,8 @@ export type WordDbModel = {
 
 export type WordMutationModel = {
   readonly id?: string;
+  readonly createdDate?: string;
+  readonly updatedDate?: string;
 } & WordProperties;
 
 export type ApiWordEntity = {

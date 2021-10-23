@@ -36,7 +36,7 @@ export default {
     tags: { type: new GraphQLList(GraphQLString) },
   },
 
-  resolve: (_: any, args: any, { mPool }: any) => {
-    return mongoDb(mPool).getWords(args);
+  resolve: (_: any, args: any, { mPool, dbName, collectionName }: any) => {
+    return mongoDb(mPool, dbName, collectionName).getWords(args);
   },
 };

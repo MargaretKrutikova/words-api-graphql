@@ -8,12 +8,12 @@ export default {
   type: WordType,
   description: "The word identified by the id",
   args: {
-    key: { type: new GraphQLNonNull(GraphQLString) }
+    key: { type: new GraphQLNonNull(GraphQLString) },
   },
   // obj - parent object we are representing
   // args - values of the fields args passed from the user, args.key
   // context - object that is passed down from the executor
-  resolve: (_: any, args: any, { mPool }: any) => {
-    return mongoDb(mPool).getWord(args.key);
-  }
+  resolve: (_: any, args: any, { mPool, dbName, collectionName }: any) => {
+    return mongoDb(mPool, dbName, collectionName).getWord(args.key);
+  },
 };

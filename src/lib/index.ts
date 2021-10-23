@@ -22,7 +22,14 @@ const app = express();
 // select the configuration for the current node environment
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const url = config.url!;
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+const dbName = config.dbName!;
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+const collectionName = config.collectionName!;
+
 assert.notEqual(url, undefined);
+assert.notEqual(dbName, undefined);
+assert.notEqual(collectionName, undefined);
 
 // connect to mongodb
 MongoClient.connect(
@@ -39,7 +46,7 @@ MongoClient.connect(
         schema: ncSchema,
         // enables local editor
         graphiql: true,
-        context: { mPool },
+        context: { mPool, dbName, collectionName },
       })(req, res);
     });
 

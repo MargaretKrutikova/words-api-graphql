@@ -1,3 +1,9 @@
 node_modules/
 .env
 build/
+bin/
+obj/
+.idea
+.farmer
+.terraform/
+.terraform.lock.hcl

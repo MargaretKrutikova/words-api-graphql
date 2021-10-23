@@ -1,0 +1,10 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": [
+    "hashicorp.terraform",
+     "ms-azuretools.vscode-azureterraform",
+     "ms-vscode.vscode-node-azure-pack"
+  ]
+}

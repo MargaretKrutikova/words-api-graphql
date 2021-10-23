@@ -25,6 +25,12 @@ const WordInputType = new GraphQLInputObjectType({
     usages: {
       type: new GraphQLList(GraphQLString),
     },
+    createdDate: {
+      type: GraphQLString,
+    },
+    updatedDate: {
+      type: GraphQLString,
+    },
   }),
 });
 
@@ -36,7 +42,7 @@ export default {
   args: {
     input: { type: new GraphQLNonNull(WordInputType) },
   },
-  resolve: (_: any, { input }: any, { mPool }: any) => {
-    return mongoDb(mPool).saveWord(input);
+  resolve: (_: any, { input }: any, { mPool, dbName, collectionName }: any) => {
+    return mongoDb(mPool, dbName, collectionName).saveWord(input);
   },
 };
