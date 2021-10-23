@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "db_name" {
-  default = "WordsDbTf"
+  default = "WordsDb"
 }
 
 variable "collection_name" {
@@ -30,7 +30,7 @@ resource "azurerm_resource_group" "wordsapp" {
 }
 
 resource "azurerm_cosmosdb_account" "cosmosaccount" {
-  name                 = "tfcosmosaccount"
+  name                 = "wordscosmosaccount"
   location             = azurerm_resource_group.wordsapp.location
   resource_group_name  = azurerm_resource_group.wordsapp.name
   kind                 = "MongoDB"
@@ -102,7 +102,7 @@ resource "azurerm_app_service_plan" "wordsapp" {
 }
 
 resource "azurerm_app_service" "wordsapp" {
-  name                = "wordsapitf"
+  name                = "wordsapi"
   location            = azurerm_resource_group.wordsapp.location
   resource_group_name = azurerm_resource_group.wordsapp.name
   app_service_plan_id = azurerm_app_service_plan.wordsapp.id
